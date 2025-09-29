@@ -1,0 +1,5 @@
+DATA1 SOURCE='HSPICERF' VERSION='A-2008.03'
+.TITLE '*file: band_gap_referance.sp	band_gap_referance'
+ aaa dvf va vb vf2 xxx temper alter#
+  5.540096e-005	  7.893652e-001	  7.908744e-001	  7.893652e-001	  7.339642e-001	  8.280104e-001	
+     25.000000 1

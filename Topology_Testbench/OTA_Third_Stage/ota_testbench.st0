@@ -1,0 +1,26 @@
+Parsing                                                                        
+Parsing: 2000 lines                                                            
+                                                                               
+Loading Netlist Data                                                           
+Initialize Models                                                              
+Checking                                                                       
+                                                                               
+Compressing                                                                    
+Simulation                                                                     
+OP: finished                                                                   
+AC Analysis                                                                    
+0.1% frequency = 1.028016 Hz ( etc = 0.0 sec, ett = 0.0 sec )                  
+10.0% frequency = 12.618275 Hz ( etc = 0.0 sec, ett = 0.0 sec )                
+20.0% frequency = 158.854675 Hz ( etc = 0.0 sec, ett = 0.0 sec )               
+30.0% frequency = 1.999862 kHz ( etc = 0.0 sec, ett = 0.0 sec )                
+40.0% frequency = 25.176769 kHz ( etc = 0.0 sec, ett = 0.0 sec )               
+50.0% frequency = 316.956746 kHz ( etc = 0.0 sec, ett = 0.0 sec )              
+60.0% frequency = 3.990249 MHz ( etc = 0.0 sec, ett = 0.0 sec )                
+70.0% frequency = 50.234259 MHz ( etc = 0.0 sec, ett = 0.0 sec )               
+80.0% frequency = 632.411851 MHz ( etc = 0.0 sec, ett = 0.0 sec )              
+90.0% frequency = 7.961594 GHz ( etc = 0.0 sec, ett = 0.0 sec )                
+100.0% frequency = 100.000000 GHz ( etc = 0.0 sec, ett = 0.0 sec )             
+finished AC analysis (0.28 sec)                                                
+                                                                               
+                                                                               
+See "ota_testbench.lis" for results and statistics.                            

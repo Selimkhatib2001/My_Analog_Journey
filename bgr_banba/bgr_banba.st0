@@ -1,0 +1,27 @@
+Parsing                                                                        
+                                                                               
+Loading Netlist Data                                                           
+Initialize Models                                                              
+Checking                                                                       
+                                                                               
+Compressing                                                                    
+Simulation                                                                     
+OP: finished                                                                   
+DC Sweep Analysis                                                              
+starting DC sweep                                                              
+0.1% TEMP = -39.900000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+10.0% TEMP = -22.000000 ( etc = 0.0 sec, ett = 0.0 sec )                       
+20.0% TEMP = -4.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+30.0% TEMP = 14.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+40.0% TEMP = 32.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+50.0% TEMP = 50.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+60.0% TEMP = 68.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+70.0% TEMP = 86.000000 ( etc = 0.0 sec, ett = 0.0 sec )                        
+80.0% TEMP = 104.000000 ( etc = 0.0 sec, ett = 0.0 sec )                       
+90.0% TEMP = 122.000000 ( etc = 0.0 sec, ett = 0.0 sec )                       
+100.0% TEMP = 140.000000 ( etc = 0.0 sec, ett = 0.0 sec )                      
+Compressing                                                                    
+finished DC sweep (0.8 sec)                                                    
+                                                                               
+                                                                               
+See "bgr_banba.lis" for results and statistics.                                

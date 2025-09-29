@@ -1,0 +1,4 @@
+DATA1 SOURCE='HSPICERF' VERSION='A-2008.03'
+.TITLE '*file: OTA_Testbench.sp	OTA_Testbench'
+ dd temper alter#
+  9.224571e-001	     25.000000 1

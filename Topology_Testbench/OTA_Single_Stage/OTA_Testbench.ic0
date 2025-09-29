@@ -1,0 +1,21 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "17:42:39  05/01/2025"
+* "netlist" "c:\hspice_workspace\topology_testbench\ota_single_stage\ota_testbench.sp"
+* "runtitle" "*file: OTA_Testbench.sp	OTA_Testbench"
+* time = 0
+* temperature = 25
+*** BEGIN: Saved Operating Point ***
+.option
++ gmindc= 1e-012
+.nodeset
++ vdd = 1.2000000000
++ vout = 556.6425622863m
++ vss = 0.0000000000
++ v_neg = 550.0000000000m
++ v_pos = 550.0000000000m
++ x1.cm_1_out = 1.1451584711
++ x1.cm_1_ref = 96.9675394775m
++ x1.cm_2_ref = 556.6215919968m
+*** END: Saved Operating Point ***

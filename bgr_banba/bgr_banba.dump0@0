@@ -1,0 +1,25 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "18:42:43  01/02/2025"
+* "netlist" "c:\hspice_workspace\bgr_banba\bgr_banba.sp"
+* "runtitle" "*file: band_gap_referance.sp	band_gap_referance"
+* time = 0
+* temperature = 25
+* alter = 0
+*** BEGIN: Saved Operating Point ***
+.nodeset
++ 0 = 0
++ imp_out = 0.616884
++ op_amp_out = 0.712796
++ va = 0.48313
++ vb = 0.483024
++ vc = 0.0835199
++ vdd = 1.8
++ vf = 0.483016
++ vss = 0
++ x1.cm_1_1 = 1.24801
++ x1.cm_1_2 = 0.991401
++ x1.cm_2_1 = 0.476144
++ x1.first_vout = 0.470742
+*** END: Saved Operating Point ***

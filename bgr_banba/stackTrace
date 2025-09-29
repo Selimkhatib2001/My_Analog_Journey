@@ -1,0 +1,38 @@
+window name "closelist" already exists in parent
+    while executing
+"toplevel $parent"
+    (procedure "Scope:CreateCRListBoxes" line 18)
+    invoked from within
+"Scope:CreateCRListBoxes"
+    (procedure "ScopeSigMgr:LoadP1OpenOnly" line 7)
+    invoked from within
+"ScopeSigMgr:LoadP1OpenOnly $pfcp $show"
+    ("openonly" arm line 2)
+    invoked from within
+"switch $plaction {
+        openonly {
+            ScopeSigMgr:LoadP1OpenOnly $pfcp $show
+        }
+        append {
+            if {[isvalid plotfile ..."
+    (procedure "ScopeSigMgr:LoadP1File" line 49)
+    invoked from within
+"ScopeSigMgr:LoadP1File [list $p1file] $show $plaction  $fformat"
+    (procedure "ScopeSigMgr:loadpffileDOIT" line 20)
+    invoked from within
+"ScopeSigMgr:loadpffileDOIT C:/hspice_workspace/bgr_banba/bgr_banba.sw0 1 openonly"
+    ("eval" body line 1)
+    invoked from within
+"eval {ScopeSigMgr:loadpffileDOIT C:/hspice_workspace/bgr_banba/bgr_banba.sw0 1 openonly}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel eval [list $cmds]"
+    invoked from within
+"AimBusy $cmd $wins watch"
+    (procedure "ScopeSigMgr:loadpffile" line 10)
+    invoked from within
+"ScopeSigMgr:loadpffile $fullnames 1 $plaction"
+    (procedure "ScopeSigMgr:BrowseOpenPlotfiles" line 105)
+    invoked from within
+"ScopeSigMgr:BrowseOpenPlotfiles"
+    (menu invoke)
