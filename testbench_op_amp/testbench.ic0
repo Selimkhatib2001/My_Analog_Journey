@@ -1,0 +1,23 @@
+* "simulator" "HSPICERF"
+* "version" "A-2008.03"
+* "format" "HSP"
+* "rundate" "18:38:34  01/02/2025"
+* "netlist" "c:\hspice_workspace\testbench_op_amp\testbench.sp"
+* "runtitle" "*file: testbench_op_amp.sp	testbench_op_amp"
+* time = 0
+* temperature = 25
+*** BEGIN: Saved Operating Point ***
+.option
++ gmindc= 1e-012
+.nodeset
++ vdd = 1.8000000000
++ vout = 394.9897578878m
++ vss = 0.0000000000
++ v_neg = 650.0000000000m
++ v_pos = 650.0000000000m
++ 1 = 0.0000000000
++ x1.cm_1_1 = 1.2480077959
++ x1.cm_1_2 = 1.1559186479
++ x1.cm_2_1 = 475.2314281945m
++ x1.first_vout = 475.2314292573m
+*** END: Saved Operating Point ***

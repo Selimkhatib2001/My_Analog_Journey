@@ -1,0 +1,5 @@
+DATA1 SOURCE='HSPICERF' VERSION='A-2008.03'
+.TITLE '*file: testbench_op_amp.sp	testbench_op_amp'
+ input_neg_current input_pos_current voffset_voltage vout_avg v_in
+ temper alter#
+  8.215048e-018	  1.687169e-018	    failed	  5.551495e-001	    failed	     25.000000 1

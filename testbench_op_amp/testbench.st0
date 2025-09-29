@@ -1,0 +1,45 @@
+Parsing                                                                        
+                                                                               
+Loading Netlist Data                                                           
+Initialize Models                                                              
+Checking                                                                       
+                                                                               
+Compressing                                                                    
+Simulation                                                                     
+OP: finished                                                                   
+AC Analysis                                                                    
+0.1% frequency = 1.028016 Hz ( etc = 0.0 sec, ett = 0.0 sec )                  
+10.0% frequency = 12.618275 Hz ( etc = 0.0 sec, ett = 0.0 sec )                
+20.0% frequency = 158.854675 Hz ( etc = 0.0 sec, ett = 0.0 sec )               
+30.0% frequency = 1.999862 kHz ( etc = 0.0 sec, ett = 0.0 sec )                
+40.0% frequency = 25.176769 kHz ( etc = 0.0 sec, ett = 0.0 sec )               
+50.0% frequency = 316.956746 kHz ( etc = 0.0 sec, ett = 0.0 sec )              
+60.0% frequency = 3.990249 MHz ( etc = 0.0 sec, ett = 0.0 sec )                
+70.0% frequency = 50.234259 MHz ( etc = 0.0 sec, ett = 0.0 sec )               
+80.0% frequency = 632.411851 MHz ( etc = 0.0 sec, ett = 0.0 sec )              
+90.0% frequency = 7.961594 GHz ( etc = 0.0 sec, ett = 0.0 sec )                
+100.0% frequency = 100.000000 GHz ( etc = 0.0 sec, ett = 0.0 sec )             
+finished AC analysis (0.03 sec)                                                
+10.0% time = 2000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                     
+( slv=222 evl=120 rej=14 mem=0 cpu=0 wall=0 )                                  
+20.0% time = 4000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                     
+( slv=488 evl=327 rej=15 mem=0 cpu=0 wall=0 )                                  
+30.0% time = 6000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                     
+( slv=691 evl=452 rej=24 mem=0 cpu=0 wall=0 )                                  
+40.0% time = 8000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                     
+( slv=900 evl=580 rej=33 mem=0 cpu=0 wall=0 )                                  
+50.0% time = 10000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=1046 evl=643 rej=42 mem=0 cpu=0 wall=0 )                                 
+60.0% time = 12000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=1331 evl=874 rej=42 mem=0 cpu=0 wall=0 )                                 
+70.0% time = 14000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=1616 evl=1098 rej=45 mem=0 cpu=0 wall=0 )                                
+80.0% time = 16000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=1761 evl=1161 rej=53 mem=0 cpu=0 wall=0 )                                
+90.0% time = 18000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=1999 evl=1324 rej=59 mem=0 cpu=0 wall=0 )                                
+100.0% time = 20000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=2203 evl=1451 rej=67 mem=0 cpu=0 wall=0 )                                
+                                                                               
+                                                                               
+See "testbench.lis" for results and statistics.                                
