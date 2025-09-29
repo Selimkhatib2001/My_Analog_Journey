@@ -1,0 +1,44 @@
+Parsing                                                                        
+Parsing: 2000 lines                                                            
+                                                                               
+Loading Netlist Data                                                           
+Initialize Models                                                              
+Checking                                                                       
+                                                                               
+Compressing                                                                    
+Simulation                                                                     
+OP: finished                                                                   
+AC Analysis                                                                    
+0.1% frequency = 1.028016 Hz ( etc = 0.0 sec, ett = 0.0 sec )                  
+10.0% frequency = 12.618275 Hz ( etc = 0.0 sec, ett = 0.0 sec )                
+20.0% frequency = 158.854675 Hz ( etc = 0.0 sec, ett = 0.0 sec )               
+30.0% frequency = 1.999862 kHz ( etc = 0.0 sec, ett = 0.0 sec )                
+40.0% frequency = 25.176769 kHz ( etc = 0.0 sec, ett = 0.0 sec )               
+50.0% frequency = 316.956746 kHz ( etc = 0.0 sec, ett = 0.0 sec )              
+60.0% frequency = 3.990249 MHz ( etc = 0.0 sec, ett = 0.0 sec )                
+70.0% frequency = 50.234259 MHz ( etc = 0.0 sec, ett = 0.0 sec )               
+80.0% frequency = 632.411851 MHz ( etc = 0.0 sec, ett = 0.0 sec )              
+90.0% frequency = 7.961594 GHz ( etc = 0.0 sec, ett = 0.0 sec )                
+100.0% frequency = 100.000000 GHz ( etc = 0.0 sec, ett = 0.0 sec )             
+finished AC analysis (0.23 sec)                                                
+10.0% time = 20000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=19 evl=18 rej=0 mem=0 cpu=0 wall=0 )                                     
+20.0% time = 40000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )                                     
+30.0% time = 60000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )                                     
+40.0% time = 80000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                    
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )                                     
+50.0% time = 100000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )                                     
+60.0% time = 120000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )                                     
+70.0% time = 140000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )                                     
+80.0% time = 160000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )                                     
+90.0% time = 180000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )                   
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )                                     
+                                                                               
+                                                                               
+See "ota_testbench.lis" for results and statistics.                            

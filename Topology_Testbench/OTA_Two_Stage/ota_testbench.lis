@@ -1,0 +1,262 @@
+************************************************************************
+HSPICE RF -- A-2008.03 (Feb 26 2008)
+Copyright (C) 2008 Synopsys,Inc. All rights reserved.
+This software and the associated documentation are confidential and
+proprietary to Synopsys, Inc. Your use or disclosure of this software
+is subject to the terms and conditions of a written license agreement
+between you, or your company, and Synopsys, Inc.
+************************************************************************
+
+hspicerf 32-bit version A-2008.03 (Feb 26 2008 14:57:57)
+
+machine info: Professional Server 4.0 (Build 9200) 586 on MANGO
+
+current time: 18:21:27 04/15/2025
+
+command line: hspicerf
+c:\hspice_workspace\topology_testbench\ota_two_stage\ota_testbench.sp
+
+Total number of lines parsed: 13198
+
+Resource Usage for Parsing
+--------------------------
+| CPU Time    | 0.05 sec |
+| Peak Memory | 0.07 Mb  |
+|------------------------|
+
+Source Files
+---------------------------------------------------------------------------
+| "OTA.sp"                                                                |
+| "c:\hspice_workspace\topology_testbench\ota_two_stage\ota_testbench.sp" |
+| "size_param.txt"                                                        |
+| "130nm.txt"                                                             |
+|-------------------------------------------------------------------------|
+
+Options
+------------------
+| Option | Value |
+|--------+-------|
+| POST   | 1     |
+|----------------|
+
+12 unique instance models are loaded.
+
+Resource Usage for Load Netlist Data
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Netlist Statistics
+---------------------
+| Type      | Count |
+|-----------+-------|
+| nmos      | 3     |
+| pmos      | 5     |
+| resistor  | 1     |
+| capacitor | 2     |
+| vsrc      | 4     |
+|-------------------|
+
+Summary of Possible Problems in Netlist
+-------------------------------------
+| Negative resistor             | 0 |
+| Negative capacitor            | 0 |
+| Negative inductor             | 0 |
+| Unconnected node              | 0 |
+| Dangling terminal             | 0 |
+| Non-rail bulk terminal        | 0 |
+| Floating MOS gate             | 0 |
+| Floating MOS bulk             | 0 |
+| Floating BJT substrate        | 0 |
+| Floating controlled input     | 0 |
+| Floating current source nodes | 0 |
+| Source loop                   | 0 |
+|-----------------------------------|
+
+Resource Usage for Netlist Check
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Number of nodes: 14
+
+Total number of nodes (including internal nodes): 14
+
+Resource Usage for Netlist Data Compression
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+Simulation
+
+Operating Point Status time=0
+----------------------------
+| Node          | Voltage  |
+|---------------+----------|
+| VDD           | 1.2      |
+| VOUT          | 0.616064 |
+| VSS           | 0        |
+| V_NEG         | 0.7      |
+| V_POS         | 0.7      |
+| X1.CM_1_OUT   | 1.12609  |
+| X1.CM_1_REF   | 0.869298 |
+| X1.CM_2_REF   | 0.494603 |
+| X1.FIRST_VOUT | 0.495006 |
+|--------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | X1.XM2.M0    | X1.XM8.M0    | X1.XM7.M0    | X1.XM4.M0    |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | PMOS_1P2.23  | NMOS_1P2.18  | PMOS_1P2.20  | NMOS_1P2.18  |
+| region     | Cutoff       | Saturation   | Cutoff       | Saturation   |
+| id         | -8.7470e-006 | 2.5632e-005  | -2.5632e-005 | 8.7470e-006  |
+| ibs        | -0.0000e+000 | 0.0000e+000  | -0.0000e+000 | 0.0000e+000  |
+| ibd        | 6.4109e-013  | -6.2606e-013 | 5.9394e-013  | -5.0501e-013 |
+| vgs        | -4.2609e-001 | 4.9501e-001  | -3.3070e-001 | 4.9460e-001  |
+| vds        | -6.3109e-001 | 6.1606e-001  | -5.8394e-001 | 4.9501e-001  |
+| vbs        | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  |
+| vth        | -3.3255e-001 | 3.6742e-001  | -3.7765e-001 | 3.4386e-001  |
+| vdsat      | -1.2433e-001 | 1.4456e-001  | -6.2158e-002 | 1.5325e-001  |
+| beta       | 1.3095e-003  | 2.5350e-003  | 3.7589e-002  | 7.3590e-004  |
+| gam eff    | 4.1960e-001  | 4.3579e-001  | 4.1566e-001  | 4.4064e-001  |
+| gm         | 1.0702e-004  | 2.5877e-004  | 5.6426e-004  | 8.4182e-005  |
+| gds        | 5.0097e-007  | 1.3940e-006  | 1.0110e-005  | 2.2342e-007  |
+| gmb        | 2.2530e-005  | 5.5903e-005  | 1.1646e-004  | 1.7813e-005  |
+| cdtot      | 1.4649e-014  | 4.3393e-015  | 2.8910e-014  | 4.7857e-015  |
+| cgtot      | 3.5729e-013  | 7.1143e-014  | 6.5795e-014  | 2.3258e-013  |
+| cstot      | 2.2251e-013  | 4.4201e-014  | 4.8465e-014  | 1.4460e-013  |
+| cbtot      | 8.9153e-014  | 1.7122e-014  | 3.4865e-014  | 5.2917e-014  |
+| cgs        | 3.3296e-013  | 6.6606e-014  | 4.4922e-014  | 2.2292e-013  |
+| cgd        | 8.7021e-015  | 2.6545e-015  | 1.6806e-014  | 2.9861e-015  |
+|------------------------------------------------------------------------|
+
+
+--------------------------------------------------------------------------
+| Element    | X1.XM6.M0    | X1.XM3.M0    | X1.XM1.M0    | X1.XM5.M0    |
+|------------+--------------+--------------+--------------+--------------|
+| Model Name | PMOS_1P2.20  | NMOS_1P2.18  | PMOS_1P2.23  | PMOS_1P2.20  |
+| region     | Cutoff       | Saturation   | Cutoff       | Cutoff       |
+| id         | -1.7494e-005 | 8.7469e-006  | -8.7472e-006 | -2.1732e-005 |
+| ibs        | -0.0000e+000 | 0.0000e+000  | -0.0000e+000 | -0.0000e+000 |
+| ibd        | 8.3318e-014  | -5.0460e-013 | 6.4149e-013  | 3.4070e-013  |
+| vgs        | -3.3070e-001 | 4.9460e-001  | -4.2609e-001 | -3.3070e-001 |
+| vds        | -7.3908e-002 | 4.9460e-001  | -6.3149e-001 | -3.3070e-001 |
+| vbs        | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  | 0.0000e+000  |
+| vth        | -3.6145e-001 | 3.4386e-001  | -3.3255e-001 | -3.6119e-001 |
+| vdsat      | -6.6580e-002 | 1.5325e-001  | -1.2433e-001 | -6.6674e-002 |
+| beta       | 2.5160e-002  | 7.3590e-004  | 1.3095e-003  | 2.5164e-002  |
+| gam eff    | 4.1848e-001  | 4.4064e-001  | 4.1960e-001  | 4.1848e-001  |
+| gm         | 3.6393e-004  | 8.4181e-005  | 1.0703e-004  | 4.6911e-004  |
+| gds        | 7.9673e-005  | 2.2358e-007  | 5.0092e-007  | 6.1301e-006  |
+| gmb        | 7.6576e-005  | 1.7813e-005  | 2.2531e-005  | 9.8097e-005  |
+| cdtot      | 3.8785e-014  | 4.7872e-015  | 1.4647e-014  | 3.1554e-014  |
+| cgtot      | 9.1235e-014  | 2.3258e-013  | 3.5729e-013  | 8.8760e-014  |
+| cstot      | 5.9874e-014  | 1.4460e-013  | 2.2251e-013  | 6.0558e-014  |
+| cbtot      | 4.3721e-014  | 5.2918e-014  | 8.9153e-014  | 4.1641e-014  |
+| cgs        | 6.3165e-014  | 2.2292e-013  | 3.3296e-013  | 6.4420e-014  |
+| cgd        | 2.2390e-014  | 2.9872e-015  | 8.7007e-015  | 1.8286e-014  |
+|------------------------------------------------------------------------|
+
+
+-----------------------------------------------------------------------
+| Element | V_POS        | VSS          | VDD          | V_NEG        |
+|---------+--------------+--------------+--------------+--------------|
+| volts   | 7.0000e-001  | 0.0000e+000  | 1.2000e+000  | 7.0000e-001  |
+| current | 4.9335e-011  | 4.3126e-005  | -6.4858e-005 | 4.9348e-011  |
+| power   | -3.4534e-011 | -0.0000e+000 | 7.7830e-005  | -3.4544e-011 |
+|---------------------------------------------------------------------|
+
+
+-------------------------
+| Element | X1.RB       |
+|---------+-------------|
+| r value | 4.0000e+004 |
+| v drop  | 8.6930e-001 |
+| current | 2.1732e-005 |
+| power   | 1.8892e-005 |
+|-----------------------|
+
+Resource Usage for Operating Point
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+AC Analysis
+
+0.1% frequency = 1.028016 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+
+10.0% frequency = 12.618275 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+
+20.0% frequency = 158.854675 Hz ( etc = 0.0 sec, ett = 0.0 sec )
+
+30.0% frequency = 1.999862 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+40.0% frequency = 25.176769 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+50.0% frequency = 316.956746 kHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+60.0% frequency = 3.990249 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+70.0% frequency = 50.234259 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+80.0% frequency = 632.411851 MHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+90.0% frequency = 7.961594 GHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+
+
+100.0% frequency = 100.000000 GHz ( etc = 0.0 sec, ett = 0.0 sec )
+
+finished AC analysis (0.23 sec)
+
+
+
+AC analysis time = 0.23 cpu sec
+
+Transient Analysis
+10.0% time = 20000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=19 evl=18 rej=0 mem=0 cpu=0 wall=0 )
+20.0% time = 40000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )
+30.0% time = 60000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )
+40.0% time = 80000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=20 evl=19 rej=0 mem=0 cpu=0 wall=0 )
+50.0% time = 100000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )
+60.0% time = 120000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )
+70.0% time = 140000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )
+80.0% time = 160000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )
+90.0% time = 180000000.0 ns ( etc = 0.0 sec, ett = 0.0 sec )
+( slv=21 evl=20 rej=0 mem=0 cpu=0 wall=0 )
+
+solve = 21 eval = 20 reject = 0
+
+Transient time = 0 cpu sec, 0 wall sec
+
+Resource Usage for Transient Analysis
+--------------------------
+| CPU Time    | 0.00 sec |
+| Peak Memory | 0.00 Mb  |
+|------------------------|
+
+--- hspicerf done
+[c:\hspice_workspace\topology_testbench\ota_two_stage\ota_testbench.sp] ---
+
+Total time = 0.29 cpu sec
+
+Total memory = 0.00 Mbytes
+
+
+
+
+
+See "ota_testbench.lis" for results and statistics.

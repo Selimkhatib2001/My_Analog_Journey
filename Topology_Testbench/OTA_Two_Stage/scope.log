@@ -1,0 +1,3496 @@
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal108 add
+# Signal108
+Graph itemselect Signal108 add
+# Signal108
+Mdi:ArrangeIcons
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal107 add
+# Signal107
+Graph delsignal selected
+wm geometry .sigmgr 367x200+1212+93
+wm geometry .sigmgr 367x200+1201+101
+wm geometry .sigmgr 367x200+1182+109
+wm geometry .sigmgr 367x200+1151+115
+wm geometry .sigmgr 367x200+1099+116
+wm geometry .sigmgr 367x200+1068+115
+wm geometry .sigmgr 367x200+1040+111
+wm geometry .sigmgr 367x200+1027+109
+wm geometry .sigmgr 367x200+1000+106
+wm geometry .sigmgr 367x200+977+104
+wm geometry .sigmgr 367x200+960+102
+wm geometry .sigmgr 367x200+954+101
+wm geometry .sigmgr 367x200+946+100
+wm geometry .sigmgr 367x200+941+100
+wm geometry .sigmgr 367x200+940+100
+wm geometry .sigmgr 367x200+941+100
+Graph:DSel
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile C:/hspice_workspace/Topology_Testbench/OTA_Two_Stage/ota_testbench.ac0 1 openonly
+# PF:5
+pf:read PF:5 v(vout)
+# WF:5:1
+Graph addsignal {WF:5:1 WF:5:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+ScopeSigMgr:Unload 0 {{(1) ota_testbench.ac0}}
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph1 {Signal1 Signal0} 29547.0
+# M:1
+Graph:DSel
+GrMeas:Select Graph1 M:1 2
+GrMeas:MoveXLevel Graph1 M:1 2 34.175388403223
+# M:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1111:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal2
+Graph addsignal WF:1111:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal3
+GrMeas:VerticalMarker Graph1 {Signal2 Signal3} 34.175388403223
+# M:2
+Graph itemselect all rem
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1113:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal4
+Graph addsignal WF:1113:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal5
+GrMeas:VerticalMarker Graph1 {Signal4 Signal5} 34.175388403223
+# M:3
+Graph itemselect all rem
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal3 add
+# Signal3
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1115:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal6
+Graph addsignal WF:1115:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal7
+GrMeas:VerticalMarker Graph1 {Signal6 Signal7} 34.175388403223
+# M:4
+Graph itemselect all rem
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal5 add
+# Signal5
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1117:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal8
+Graph addsignal WF:1117:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal9
+GrMeas:VerticalMarker Graph1 {Signal8 Signal9} 34.175388403223
+# M:5
+Graph itemselect all rem
+Graph itemselect Signal6 add
+# Signal6
+Graph itemselect Signal7 add
+# Signal7
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1119:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal10
+Graph addsignal WF:1119:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal11
+GrMeas:VerticalMarker Graph1 {Signal10 Signal11} 34.175388403223
+# M:6
+Graph itemselect all rem
+Graph itemselect Signal8 add
+# Signal8
+Graph itemselect Signal9 add
+# Signal9
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph addsignal WF:1121:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal12
+Graph addsignal WF:1121:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal13
+GrMeas:VerticalMarker Graph1 {Signal12 Signal13} 34.175388403223
+# M:7
+Graph itemselect all rem
+Graph itemselect Signal10 add
+# Signal10
+Graph itemselect Signal11 add
+# Signal11
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1123:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal14
+Graph addsignal WF:1123:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal15
+GrMeas:VerticalMarker Graph1 {Signal14 Signal15} 34.175388403223
+# M:8
+Graph itemselect all rem
+Graph itemselect Signal12 add
+# Signal12
+Graph itemselect Signal13 add
+# Signal13
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1125:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal16
+Graph addsignal WF:1125:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal17
+GrMeas:VerticalMarker Graph1 {Signal16 Signal17} 34.175388403223
+# M:9
+Graph itemselect all rem
+Graph itemselect Signal14 add
+# Signal14
+Graph itemselect Signal15 add
+# Signal15
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph addsignal WF:1127:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal18
+Graph addsignal WF:1127:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal19
+GrMeas:VerticalMarker Graph1 {Signal18 Signal19} 34.175388403223
+# M:10
+Graph itemselect all rem
+Graph itemselect Signal16 add
+# Signal16
+Graph itemselect Signal17 add
+# Signal17
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1129:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal20
+Graph addsignal WF:1129:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal21
+GrMeas:VerticalMarker Graph1 {Signal20 Signal21} 34.175388403223
+# M:11
+Graph itemselect all rem
+Graph itemselect Signal18 add
+# Signal18
+Graph itemselect Signal19 add
+# Signal19
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1131:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal22
+Graph addsignal WF:1131:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal23
+GrMeas:VerticalMarker Graph1 {Signal22 Signal23} 34.175388403223
+# M:12
+Graph itemselect all rem
+Graph itemselect Signal20 add
+# Signal20
+Graph itemselect Signal21 add
+# Signal21
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1133:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal24
+Graph addsignal WF:1133:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal25
+GrMeas:VerticalMarker Graph1 {Signal24 Signal25} 34.175388403223
+# M:13
+Graph itemselect all rem
+Graph itemselect Signal22 add
+# Signal22
+Graph itemselect Signal23 add
+# Signal23
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:13 2
+GrMeas:MoveXLevel Graph1 M:13 2 10.525114917076meg
+# M:13
+wm geometry .sigmgr 367x200+946+99
+wm geometry .sigmgr 367x200+951+97
+wm geometry .sigmgr 367x200+956+96
+wm geometry .sigmgr 367x200+963+94
+wm geometry .sigmgr 367x200+966+93
+wm geometry .sigmgr 367x200+980+91
+wm geometry .sigmgr 367x200+984+90
+wm geometry .sigmgr 367x200+996+88
+wm geometry .sigmgr 367x200+1005+86
+wm geometry .sigmgr 367x200+1009+86
+wm geometry .sigmgr 367x200+1022+83
+wm geometry .sigmgr 367x200+1032+82
+wm geometry .sigmgr 367x200+1040+81
+wm geometry .sigmgr 367x200+1043+81
+wm geometry .sigmgr 367x200+1047+80
+wm geometry .sigmgr 367x200+1051+80
+wm geometry .sigmgr 367x200+1054+80
+wm geometry .sigmgr 367x200+1057+80
+wm geometry .sigmgr 367x200+1060+80
+wm geometry .sigmgr 367x200+1064+80
+wm geometry .sigmgr 367x200+1068+80
+wm geometry .sigmgr 367x200+1072+80
+wm geometry .sigmgr 367x200+1079+80
+wm geometry .sigmgr 367x200+1084+80
+wm geometry .sigmgr 367x200+1088+80
+wm geometry .sigmgr 367x200+1091+80
+wm geometry .sigmgr 367x200+1094+80
+wm geometry .sigmgr 367x200+1097+80
+wm geometry .sigmgr 367x200+1097+81
+wm geometry .sigmgr 367x200+1096+81
+wm geometry .sigmgr._PF:5 200x331+763+481
+wm geometry .sigmgr._PF:5 200x331+757+482
+wm geometry .sigmgr._PF:5 200x331+750+483
+wm geometry .sigmgr._PF:5 200x331+740+483
+wm geometry .sigmgr._PF:5 200x331+734+483
+wm geometry .sigmgr._PF:5 200x331+723+483
+wm geometry .sigmgr._PF:5 200x331+714+485
+wm geometry .sigmgr._PF:5 200x331+707+485
+wm geometry .sigmgr._PF:5 200x331+698+485
+wm geometry .sigmgr._PF:5 200x331+689+485
+wm geometry .sigmgr._PF:5 200x331+680+485
+wm geometry .sigmgr._PF:5 200x331+673+484
+wm geometry .sigmgr._PF:5 200x331+668+483
+wm geometry .sigmgr._PF:5 200x331+662+482
+wm geometry .sigmgr._PF:5 200x331+655+479
+wm geometry .sigmgr._PF:5 200x331+649+477
+wm geometry .sigmgr._PF:5 200x331+638+472
+wm geometry .sigmgr._PF:5 200x331+627+467
+wm geometry .sigmgr._PF:5 200x331+622+464
+wm geometry .sigmgr._PF:5 200x331+615+461
+wm geometry .sigmgr._PF:5 200x331+612+458
+wm geometry .sigmgr._PF:5 200x331+608+457
+wm geometry .sigmgr._PF:5 200x331+604+453
+wm geometry .sigmgr._PF:5 200x331+602+451
+wm geometry .sigmgr._PF:5 200x331+601+447
+wm geometry .sigmgr._PF:5 200x331+598+444
+wm geometry .sigmgr._PF:5 200x331+595+438
+wm geometry .sigmgr._PF:5 200x331+592+430
+wm geometry .sigmgr._PF:5 200x331+589+421
+wm geometry .sigmgr._PF:5 200x331+585+410
+wm geometry .sigmgr._PF:5 200x331+582+401
+wm geometry .sigmgr._PF:5 200x331+581+395
+wm geometry .sigmgr._PF:5 200x331+580+383
+wm geometry .sigmgr._PF:5 200x331+580+376
+wm geometry .sigmgr._PF:5 200x331+581+367
+wm geometry .sigmgr._PF:5 200x331+582+361
+wm geometry .sigmgr._PF:5 200x331+586+348
+wm geometry .sigmgr._PF:5 200x331+590+335
+wm geometry .sigmgr._PF:5 200x331+597+321
+wm geometry .sigmgr._PF:5 200x331+600+312
+wm geometry .sigmgr._PF:5 200x331+606+301
+wm geometry .sigmgr._PF:5 200x331+612+287
+wm geometry .sigmgr._PF:5 200x331+617+277
+wm geometry .sigmgr._PF:5 200x331+620+271
+wm geometry .sigmgr._PF:5 200x331+634+252
+wm geometry .sigmgr._PF:5 200x331+639+245
+wm geometry .sigmgr._PF:5 200x331+658+225
+wm geometry .sigmgr._PF:5 200x331+670+214
+wm geometry .sigmgr._PF:5 200x331+688+196
+wm geometry .sigmgr._PF:5 200x331+701+185
+wm geometry .sigmgr._PF:5 200x331+713+174
+wm geometry .sigmgr._PF:5 200x331+722+165
+wm geometry .sigmgr._PF:5 200x331+733+155
+wm geometry .sigmgr._PF:5 200x331+743+150
+wm geometry .sigmgr._PF:5 200x331+758+140
+wm geometry .sigmgr._PF:5 200x331+771+133
+wm geometry .sigmgr._PF:5 200x331+781+127
+wm geometry .sigmgr._PF:5 200x331+799+121
+wm geometry .sigmgr._PF:5 200x331+807+118
+wm geometry .sigmgr._PF:5 200x331+818+115
+wm geometry .sigmgr._PF:5 200x331+832+111
+wm geometry .sigmgr._PF:5 200x331+839+109
+wm geometry .sigmgr._PF:5 200x331+850+107
+wm geometry .sigmgr._PF:5 200x331+852+107
+wm geometry .sigmgr._PF:5 200x331+854+106
+wm geometry .sigmgr._PF:5 200x331+855+106
+wm geometry .sigmgr._PF:5 200x331+856+106
+wm geometry .sigmgr._PF:5 200x331+858+106
+wm geometry .sigmgr._PF:5 200x331+859+106
+wm geometry .sigmgr._PF:5 200x331+859+105
+wm geometry .sigmgr._PF:5 200x331+860+105
+wm geometry .sigmgr._PF:5 200x331+861+105
+wm geometry .sigmgr._PF:5 200x331+862+104
+wm geometry .sigmgr._PF:5 200x331+864+104
+wm geometry .sigmgr._PF:5 200x331+866+104
+wm geometry .sigmgr._PF:5 200x331+868+103
+wm geometry .sigmgr._PF:5 200x331+871+102
+wm geometry .sigmgr._PF:5 200x331+874+101
+wm geometry .sigmgr._PF:5 200x331+877+101
+wm geometry .sigmgr._PF:5 200x331+881+99
+wm geometry .sigmgr._PF:5 200x331+884+98
+wm geometry .sigmgr._PF:5 200x331+887+98
+wm geometry .sigmgr._PF:5 200x331+890+96
+wm geometry .sigmgr._PF:5 200x331+892+95
+wm geometry .sigmgr._PF:5 200x331+894+94
+wm geometry .sigmgr._PF:5 200x331+895+93
+wm geometry .sigmgr._PF:5 200x331+895+92
+wm geometry .sigmgr._PF:5 200x331+895+91
+wm geometry .sigmgr._PF:5 200x331+896+91
+wm geometry .sigmgr._PF:5 200x331+896+90
+wm geometry .sigmgr._PF:5 200x331+895+89
+wm geometry .sigmgr._PF:5 200x331+894+89
+wm geometry .sigmgr._PF:5 200x331+895+89
+wm geometry .sigmgr._PF:5 200x331+895+88
+wm geometry .sigmgr._PF:5 200x331+895+87
+wm geometry .sigmgr._PF:5 200x331+895+86
+wm geometry .sigmgr._PF:5 200x331+895+84
+wm geometry .sigmgr._PF:5 200x331+896+83
+wm geometry .sigmgr._PF:5 200x331+896+82
+wm geometry .sigmgr._PF:5 200x331+896+81
+wm geometry .sigmgr._PF:5 200x331+896+80
+wm geometry .sigmgr._PF:5 200x331+895+80
+wm geometry .sigmgr._PF:5 200x331+894+80
+wm geometry .sigmgr._PF:5 200x331+894+79
+wm geometry .sigmgr._PF:5 200x331+895+79
+AimCalc
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+AimBarItem:Show .aimCalc
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-13.825202975068 -79.759674587273} {800.0 500000.0}}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0)} -range {all all all} -zoomed {0 0 0}
+wm geometry .aimCalc 280x285+1241+335
+wm geometry .aimCalc 280x285+1236+334
+wm geometry .aimCalc 280x285+1231+333
+wm geometry .aimCalc 280x285+1220+331
+wm geometry .aimCalc 280x285+1213+329
+wm geometry .aimCalc 280x285+1196+327
+wm geometry .aimCalc 280x285+1186+325
+wm geometry .aimCalc 280x285+1159+321
+wm geometry .aimCalc 280x285+1128+318
+wm geometry .aimCalc 280x285+1100+315
+wm geometry .aimCalc 280x285+1053+311
+wm geometry .aimCalc 280x285+1023+309
+wm geometry .aimCalc 280x285+982+308
+wm geometry .aimCalc 280x285+938+306
+wm geometry .aimCalc 280x285+902+302
+wm geometry .aimCalc 280x285+871+299
+wm geometry .aimCalc 280x285+826+294
+wm geometry .aimCalc 280x285+811+292
+wm geometry .aimCalc 280x285+787+290
+wm geometry .aimCalc 280x285+750+284
+wm geometry .aimCalc 280x285+736+282
+wm geometry .aimCalc 280x285+709+278
+wm geometry .aimCalc 280x285+688+272
+wm geometry .aimCalc 280x285+667+268
+wm geometry .aimCalc 280x285+653+265
+wm geometry .aimCalc 280x285+634+259
+wm geometry .aimCalc 280x285+614+252
+wm geometry .aimCalc 280x285+603+249
+wm geometry .aimCalc 280x285+577+240
+wm geometry .aimCalc 280x285+558+233
+wm geometry .aimCalc 280x285+545+229
+wm geometry .aimCalc 280x285+529+223
+wm geometry .aimCalc 280x285+516+216
+wm geometry .aimCalc 280x285+509+212
+wm geometry .aimCalc 280x285+500+207
+wm geometry .aimCalc 280x285+492+201
+wm geometry .aimCalc 280x285+487+197
+wm geometry .aimCalc 280x285+482+193
+wm geometry .aimCalc 280x285+473+185
+wm geometry .aimCalc 280x285+467+179
+wm geometry .aimCalc 280x285+462+174
+wm geometry .aimCalc 280x285+458+169
+wm geometry .aimCalc 280x285+456+167
+wm geometry .aimCalc 280x285+454+164
+wm geometry .aimCalc 280x285+453+161
+wm geometry .aimCalc 280x285+452+158
+wm geometry .aimCalc 280x285+450+155
+wm geometry .aimCalc 280x285+450+150
+wm geometry .aimCalc 280x285+450+146
+wm geometry .aimCalc 280x285+450+141
+wm geometry .aimCalc 280x285+451+138
+wm geometry .aimCalc 280x285+452+133
+wm geometry .aimCalc 280x285+456+127
+wm geometry .aimCalc 280x285+459+122
+wm geometry .aimCalc 280x285+460+121
+wm geometry .aimCalc 280x285+464+117
+wm geometry .aimCalc 280x285+469+113
+wm geometry .aimCalc 280x285+473+110
+wm geometry .aimCalc 280x285+478+108
+wm geometry .aimCalc 280x285+484+105
+wm geometry .aimCalc 280x285+491+101
+wm geometry .aimCalc 280x285+497+100
+wm geometry .aimCalc 280x285+501+98
+wm geometry .aimCalc 280x285+507+97
+wm geometry .aimCalc 280x285+510+96
+wm geometry .aimCalc 280x285+518+95
+wm geometry .aimCalc 280x285+525+94
+wm geometry .aimCalc 280x285+533+93
+wm geometry .aimCalc 280x285+544+92
+wm geometry .aimCalc 280x285+551+92
+wm geometry .aimCalc 280x285+557+91
+wm geometry .aimCalc 280x285+563+90
+wm geometry .aimCalc 280x285+570+90
+wm geometry .aimCalc 280x285+575+90
+wm geometry .aimCalc 280x285+577+90
+wm geometry .aimCalc 280x285+579+90
+wm geometry .aimCalc 280x285+580+90
+wm geometry .aimCalc 280x285+581+90
+wm geometry .aimCalc 280x285+582+90
+wm geometry .aimCalc 280x285+583+90
+wm geometry .aimCalc 280x285+584+90
+wm geometry .aimCalc 280x285+585+90
+wm geometry .aimCalc 280x285+586+90
+wm geometry .aimCalc 280x285+587+90
+wm geometry .aimCalc 280x285+590+90
+wm geometry .aimCalc 280x285+592+90
+wm geometry .aimCalc 280x285+594+89
+wm geometry .aimCalc 280x285+595+89
+wm geometry .aimCalc 280x285+597+89
+wm geometry .aimCalc 280x285+600+89
+wm geometry .aimCalc 280x285+602+89
+wm geometry .aimCalc 280x285+603+88
+wm geometry .aimCalc 280x285+605+88
+wm geometry .aimCalc 280x285+606+88
+wm geometry .aimCalc 280x285+608+88
+wm geometry .aimCalc 280x285+609+88
+wm geometry .aimCalc 280x285+610+88
+wm geometry .aimCalc 280x285+610+87
+wm geometry .aimCalc 280x285+611+87
+wm geometry .aimCalc 280x285+612+87
+wm geometry .aimCalc 280x285+613+87
+wm geometry .aimCalc 280x285+613+88
+AimCalc:SwapXY
+AimCalc:ClearX
+Mdi:ArrangeIcons
+AimCalc:DoFunc pow yes
+Mdi:ArrangeIcons
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph1 M:13 0 1
+GrMeas:MoveXLevel Graph1 M:13 0 10.932856644041meg
+# M:13
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:5 200x331+895+82
+wm geometry .sigmgr._PF:5 200x331+895+85
+wm geometry .sigmgr._PF:5 200x331+896+89
+wm geometry .sigmgr._PF:5 200x331+898+94
+wm geometry .sigmgr._PF:5 200x331+900+101
+wm geometry .sigmgr._PF:5 200x331+903+112
+wm geometry .sigmgr._PF:5 200x331+905+119
+wm geometry .sigmgr._PF:5 200x331+910+130
+wm geometry .sigmgr._PF:5 200x331+915+142
+wm geometry .sigmgr._PF:5 200x331+921+151
+wm geometry .sigmgr._PF:5 200x331+927+161
+wm geometry .sigmgr._PF:5 200x331+932+167
+wm geometry .sigmgr._PF:5 200x331+949+187
+wm geometry .sigmgr._PF:5 200x331+957+195
+wm geometry .sigmgr._PF:5 200x331+963+202
+wm geometry .sigmgr._PF:5 200x331+985+219
+wm geometry .sigmgr._PF:5 200x331+996+227
+wm geometry .sigmgr._PF:5 200x331+1009+235
+wm geometry .sigmgr._PF:5 200x331+1038+251
+wm geometry .sigmgr._PF:5 200x331+1056+259
+wm geometry .sigmgr._PF:5 200x331+1087+275
+wm geometry .sigmgr._PF:5 200x331+1108+285
+wm geometry .sigmgr._PF:5 200x331+1123+291
+wm geometry .sigmgr._PF:5 200x331+1154+305
+wm geometry .sigmgr._PF:5 200x331+1168+310
+wm geometry .sigmgr._PF:5 200x331+1180+314
+wm geometry .sigmgr._PF:5 200x331+1192+316
+wm geometry .sigmgr._PF:5 200x331+1203+319
+wm geometry .sigmgr._PF:5 200x331+1208+319
+wm geometry .sigmgr._PF:5 200x331+1216+321
+wm geometry .sigmgr._PF:5 200x331+1225+321
+wm geometry .sigmgr._PF:5 200x331+1231+320
+wm geometry .sigmgr._PF:5 200x331+1239+318
+wm geometry .sigmgr._PF:5 200x331+1243+317
+wm geometry .sigmgr._PF:5 200x331+1248+315
+wm geometry .sigmgr._PF:5 200x331+1251+312
+wm geometry .sigmgr._PF:5 200x331+1253+311
+wm geometry .sigmgr._PF:5 200x331+1256+309
+wm geometry .sigmgr._PF:5 200x331+1258+308
+wm geometry .sigmgr._PF:5 200x331+1259+305
+wm geometry .sigmgr._PF:5 200x331+1260+304
+wm geometry .sigmgr._PF:5 200x331+1261+303
+wm geometry .sigmgr._PF:5 200x331+1261+301
+wm geometry .sigmgr._PF:5 200x331+1261+300
+wm geometry .sigmgr._PF:5 200x331+1261+301
+wm geometry .sigmgr._PF:5 200x331+1261+303
+wm geometry .sigmgr._PF:5 200x331+1262+305
+wm geometry .sigmgr._PF:5 200x331+1263+307
+wm geometry .sigmgr._PF:5 200x331+1263+308
+wm geometry .sigmgr._PF:5 200x331+1264+311
+wm geometry .sigmgr._PF:5 200x331+1264+312
+wm geometry .sigmgr._PF:5 200x331+1264+313
+wm geometry .sigmgr._PF:5 200x331+1264+314
+wm geometry .sigmgr._PF:5 200x331+1264+315
+wm geometry .sigmgr._PF:5 200x331+1264+317
+wm geometry .sigmgr._PF:5 200x331+1264+318
+wm geometry .sigmgr._PF:5 200x331+1264+319
+wm geometry .sigmgr._PF:5 200x331+1263+319
+wm geometry .sigmgr._PF:5 200x331+1263+320
+wm geometry .sigmgr._PF:5 200x331+1263+319
+wm geometry .sigmgr._PF:5 200x331+1263+317
+wm geometry .sigmgr._PF:5 200x331+1263+316
+wm geometry .sigmgr._PF:5 200x331+1263+315
+wm geometry .sigmgr._PF:5 200x331+1263+314
+wm geometry .sigmgr._PF:5 200x331+1263+313
+wm geometry .sigmgr._PF:5 200x331+1263+311
+wm geometry .sigmgr._PF:5 200x331+1263+310
+wm geometry .sigmgr._PF:5 200x331+1263+309
+wm geometry .sigmgr._PF:5 200x331+1263+308
+wm geometry .sigmgr._PF:5 200x331+1263+307
+wm geometry .sigmgr._PF:5 200x331+1264+306
+wm geometry .sigmgr._PF:5 200x331+1264+305
+wm geometry .sigmgr._PF:5 200x331+1264+306
+wm geometry .sigmgr._PF:5 200x331+1264+307
+wm geometry .sigmgr._PF:5 200x331+1264+308
+wm geometry .sigmgr._PF:5 200x331+1263+308
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:1749:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal26
+Graph addsignal WF:1749:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal27
+GrMeas:VerticalMarker Graph1 {Signal26 Signal27} 10.932856644041meg
+# M:14
+Graph itemselect all rem
+Graph itemselect Signal24 add
+# Signal24
+Graph itemselect Signal25 add
+# Signal25
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:14 2
+GrMeas:MoveXLevel Graph1 M:14 2 61.59833456698
+# M:14
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:2133:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal28
+Graph addsignal WF:2133:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal29
+GrMeas:VerticalMarker Graph1 {Signal28 Signal29} 61.59833456698
+# M:15
+Graph itemselect all rem
+Graph itemselect Signal26 add
+# Signal26
+Graph itemselect Signal27 add
+# Signal27
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:15 2
+GrMeas:MoveXLevel Graph1 M:15 2 7.9145420796331meg
+# M:15
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{-28.990131445875 -264.37619510145} {20000.0 10.0}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0)} -range {all all all} -zoomed {0 0 0}
+Mdi:ArrangeIcons
+Graph addsignal WF:2575:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal30
+Graph addsignal WF:2575:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal31
+GrMeas:VerticalMarker Graph1 {Signal30 Signal31} 7.9145420796331meg
+# M:16
+Graph itemselect all rem
+Graph itemselect Signal28 add
+# Signal28
+Graph itemselect Signal29 add
+# Signal29
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:16 2
+GrMeas:MoveXLevel Graph1 M:16 2 52.910484892039
+# M:16
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph addsignal WF:2725:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal32
+Graph addsignal WF:2725:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal33
+GrMeas:VerticalMarker Graph1 {Signal32 Signal33} 52.910484892039
+# M:17
+Graph itemselect all rem
+Graph itemselect Signal30 add
+# Signal30
+Graph itemselect Signal31 add
+# Signal31
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:17 2
+GrMeas:MoveXLevel Graph1 M:17 2 4.4753157805729meg
+# M:17
+GrMeas:MoveXLevel Graph1 M:17 2 4.5611787083675meg
+# M:17
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:2911:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal34
+Graph addsignal WF:2911:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal35
+GrMeas:VerticalMarker Graph1 {Signal34 Signal35} 4.5611787083675meg
+# M:18
+Graph itemselect all rem
+Graph itemselect Signal32 add
+# Signal32
+Graph itemselect Signal33 add
+# Signal33
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:18 2
+GrMeas:MoveXLevel Graph1 M:18 2 52.910484892039
+# M:18
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:3203:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal36
+Graph addsignal WF:3203:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal37
+GrMeas:VerticalMarker Graph1 {Signal36 Signal37} 52.910484892039
+# M:19
+Graph itemselect all rem
+Graph itemselect Signal34 add
+# Signal34
+Graph itemselect Signal35 add
+# Signal35
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:19 2
+GrMeas:MoveXLevel Graph1 M:19 2 1.5148850516575meg
+# M:19
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph addsignal WF:3697:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal38
+Graph addsignal WF:3697:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal39
+GrMeas:VerticalMarker Graph1 {Signal38 Signal39} 1.5148850516575meg
+# M:20
+Graph itemselect all rem
+Graph itemselect Signal36 add
+# Signal36
+Graph itemselect Signal37 add
+# Signal37
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:20 2
+GrMeas:MoveXLevel Graph1 M:20 2 129.25629713158
+# M:20
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph1 M:20 2 1
+GrMeas:MoveXLevel Graph1 M:20 2 9.5710553628351meg
+# M:20
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:4171:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal40
+Graph addsignal WF:4171:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal41
+GrMeas:VerticalMarker Graph1 {Signal40 Signal41} 9.5710553628351meg
+# M:21
+Graph itemselect all rem
+Graph itemselect Signal38 add
+# Signal38
+Graph itemselect Signal39 add
+# Signal39
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:21 2
+GrMeas:MoveXLevel Graph1 M:21 2 3.4956620370095meg
+# M:21
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:4445:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal42
+Graph addsignal WF:4445:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal43
+GrMeas:VerticalMarker Graph1 {Signal42 Signal43} 3.4956620370095meg
+# M:22
+Graph itemselect all rem
+Graph itemselect Signal40 add
+# Signal40
+Graph itemselect Signal41 add
+# Signal41
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:22 2
+GrMeas:MoveXLevel Graph1 M:22 2 237.44368583351
+# M:22
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:4495:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal44
+Graph addsignal WF:4495:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal45
+GrMeas:VerticalMarker Graph1 {Signal44 Signal45} 237.44368583351
+# M:23
+Graph itemselect all rem
+Graph itemselect Signal42 add
+# Signal42
+Graph itemselect Signal43 add
+# Signal43
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:4497:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal46
+Graph addsignal WF:4497:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal47
+GrMeas:VerticalMarker Graph1 {Signal46 Signal47} 237.44368583351
+# M:24
+Graph itemselect all rem
+Graph itemselect Signal44 add
+# Signal44
+Graph itemselect Signal45 add
+# Signal45
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Graph:DSel
+Graph addsignal WF:4499:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal48
+Graph addsignal WF:4499:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal49
+GrMeas:VerticalMarker Graph1 {Signal48 Signal49} 237.44368583351
+# M:25
+Graph itemselect all rem
+Graph itemselect Signal46 add
+# Signal46
+Graph itemselect Signal47 add
+# Signal47
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:4501:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal50
+Graph addsignal WF:4501:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal51
+GrMeas:VerticalMarker Graph1 {Signal50 Signal51} 237.44368583351
+# M:26
+Graph itemselect all rem
+Graph itemselect Signal48 add
+# Signal48
+Graph itemselect Signal49 add
+# Signal49
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:26 0
+GrMeas:MoveXLevel Graph1 M:26 0 1780.0057520615
+# M:26
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:5249:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal52
+Graph addsignal WF:5249:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal53
+GrMeas:VerticalMarker Graph1 {Signal52 Signal53} 1780.0057520615
+# M:27
+Graph itemselect all rem
+Graph itemselect Signal50 add
+# Signal50
+Graph itemselect Signal51 add
+# Signal51
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:27 2
+GrMeas:MoveXLevel Graph1 M:27 2 31.093588803452meg
+# M:27
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:5637:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal54
+Graph addsignal WF:5637:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal55
+GrMeas:VerticalMarker Graph1 {Signal54 Signal55} 31.093588803452meg
+# M:28
+Graph itemselect all rem
+Graph itemselect Signal52 add
+# Signal52
+Graph itemselect Signal53 add
+# Signal53
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Graph:DSel
+Graph addsignal WF:5639:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal56
+Graph addsignal WF:5639:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal57
+GrMeas:VerticalMarker Graph1 {Signal56 Signal57} 31.093588803452meg
+# M:29
+Graph itemselect all rem
+Graph itemselect Signal54 add
+# Signal54
+Graph itemselect Signal55 add
+# Signal55
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:29 2
+GrMeas:MoveXLevel Graph1 M:29 2 70.362748495585
+# M:29
+GrMeas:MoveXLevel Graph1 M:29 2 36.893638093364meg
+# M:29
+GrMeas:MoveXLevel Graph1 M:29 2 35.499338972601
+# M:29
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:6435:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal58
+Graph addsignal WF:6435:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal59
+GrMeas:VerticalMarker Graph1 {Signal58 Signal59} 35.499338972601
+# M:30
+Graph itemselect all rem
+Graph itemselect Signal56 add
+# Signal56
+Graph itemselect Signal57 add
+# Signal57
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:6437:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal60
+Graph addsignal WF:6437:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal61
+GrMeas:VerticalMarker Graph1 {Signal60 Signal61} 35.499338972601
+# M:31
+Graph itemselect all rem
+Graph itemselect Signal58 add
+# Signal58
+Graph itemselect Signal59 add
+# Signal59
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Mdi:ArrangeIcons
+Graph:DSel
+Graph addsignal WF:6439:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal62
+Graph addsignal WF:6439:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal63
+GrMeas:VerticalMarker Graph1 {Signal62 Signal63} 35.499338972601
+# M:32
+Graph itemselect all rem
+Graph itemselect Signal60 add
+# Signal60
+Graph itemselect Signal61 add
+# Signal61
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:6441:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal64
+Graph addsignal WF:6441:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal65
+GrMeas:VerticalMarker Graph1 {Signal64 Signal65} 35.499338972601
+# M:33
+Graph itemselect all rem
+Graph itemselect Signal62 add
+# Signal62
+Graph itemselect Signal63 add
+# Signal63
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:6443:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal66
+Graph addsignal WF:6443:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal67
+GrMeas:VerticalMarker Graph1 {Signal66 Signal67} 35.499338972601
+# M:34
+Graph itemselect all rem
+Graph itemselect Signal64 add
+# Signal64
+Graph itemselect Signal65 add
+# Signal65
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:6445:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal68
+Graph addsignal WF:6445:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal69
+GrMeas:VerticalMarker Graph1 {Signal68 Signal69} 35.499338972601
+# M:35
+Graph itemselect all rem
+Graph itemselect Signal66 add
+# Signal66
+Graph itemselect Signal67 add
+# Signal67
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:35 2
+GrMeas:MoveXLevel Graph1 M:35 2 165.4801694692
+# M:35
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7243:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal70
+Graph addsignal WF:7243:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal71
+GrMeas:VerticalMarker Graph1 {Signal70 Signal71} 165.4801694692
+# M:36
+Graph itemselect all rem
+Graph itemselect Signal68 add
+# Signal68
+Graph itemselect Signal69 add
+# Signal69
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7245:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal72
+Graph addsignal WF:7245:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal73
+GrMeas:VerticalMarker Graph1 {Signal72 Signal73} 165.4801694692
+# M:37
+Graph itemselect all rem
+Graph itemselect Signal70 add
+# Signal70
+Graph itemselect Signal71 add
+# Signal71
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7247:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal74
+Graph addsignal WF:7247:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal75
+GrMeas:VerticalMarker Graph1 {Signal74 Signal75} 165.4801694692
+# M:38
+Graph itemselect all rem
+Graph itemselect Signal72 add
+# Signal72
+Graph itemselect Signal73 add
+# Signal73
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7249:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal76
+Graph addsignal WF:7249:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal77
+GrMeas:VerticalMarker Graph1 {Signal76 Signal77} 165.4801694692
+# M:39
+Graph itemselect all rem
+Graph itemselect Signal74 add
+# Signal74
+Graph itemselect Signal75 add
+# Signal75
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7251:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal78
+Graph addsignal WF:7251:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal79
+GrMeas:VerticalMarker Graph1 {Signal78 Signal79} 165.4801694692
+# M:40
+Graph itemselect all rem
+Graph itemselect Signal76 add
+# Signal76
+Graph itemselect Signal77 add
+# Signal77
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7253:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal80
+Graph addsignal WF:7253:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal81
+GrMeas:VerticalMarker Graph1 {Signal80 Signal81} 165.4801694692
+# M:41
+Graph itemselect all rem
+Graph itemselect Signal78 add
+# Signal78
+Graph itemselect Signal79 add
+# Signal79
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7255:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal82
+Graph addsignal WF:7255:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal83
+GrMeas:VerticalMarker Graph1 {Signal82 Signal83} 165.4801694692
+# M:42
+Graph itemselect all rem
+Graph itemselect Signal80 add
+# Signal80
+Graph itemselect Signal81 add
+# Signal81
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7257:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal84
+Graph addsignal WF:7257:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal85
+GrMeas:VerticalMarker Graph1 {Signal84 Signal85} 165.4801694692
+# M:43
+Graph itemselect all rem
+Graph itemselect Signal82 add
+# Signal82
+Graph itemselect Signal83 add
+# Signal83
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7259:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal86
+Graph addsignal WF:7259:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal87
+GrMeas:VerticalMarker Graph1 {Signal86 Signal87} 165.4801694692
+# M:44
+Graph itemselect all rem
+Graph itemselect Signal84 add
+# Signal84
+Graph itemselect Signal85 add
+# Signal85
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7261:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal88
+Graph addsignal WF:7261:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal89
+GrMeas:VerticalMarker Graph1 {Signal88 Signal89} 165.4801694692
+# M:45
+Graph itemselect all rem
+Graph itemselect Signal86 add
+# Signal86
+Graph itemselect Signal87 add
+# Signal87
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7263:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal90
+Graph addsignal WF:7263:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal91
+GrMeas:VerticalMarker Graph1 {Signal90 Signal91} 165.4801694692
+# M:46
+Graph itemselect all rem
+Graph itemselect Signal88 add
+# Signal88
+Graph itemselect Signal89 add
+# Signal89
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7265:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal92
+Graph addsignal WF:7265:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal93
+GrMeas:VerticalMarker Graph1 {Signal92 Signal93} 165.4801694692
+# M:47
+Graph itemselect all rem
+Graph itemselect Signal90 add
+# Signal90
+Graph itemselect Signal91 add
+# Signal91
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:47 2
+GrMeas:MoveXLevel Graph1 M:47 2 22.509351855981meg
+# M:47
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7585:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal94
+Graph addsignal WF:7585:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal95
+GrMeas:VerticalMarker Graph1 {Signal94 Signal95} 22.509351855981meg
+# M:48
+Graph itemselect all rem
+Graph itemselect Signal92 add
+# Signal92
+Graph itemselect Signal93 add
+# Signal93
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:48 2
+GrMeas:MoveXLevel Graph1 M:48 2 67.738564394422
+# M:48
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7629:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal96
+Graph addsignal WF:7629:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal97
+GrMeas:VerticalMarker Graph1 {Signal96 Signal97} 67.738564394422
+# M:49
+Graph itemselect all rem
+Graph itemselect Signal94 add
+# Signal94
+Graph itemselect Signal95 add
+# Signal95
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7631:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal98
+Graph addsignal WF:7631:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal99
+GrMeas:VerticalMarker Graph1 {Signal98 Signal99} 67.738564394422
+# M:50
+Graph itemselect all rem
+Graph itemselect Signal96 add
+# Signal96
+Graph itemselect Signal97 add
+# Signal97
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7633:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal100
+Graph addsignal WF:7633:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal101
+GrMeas:VerticalMarker Graph1 {Signal100 Signal101} 67.738564394422
+# M:51
+Graph itemselect all rem
+Graph itemselect Signal98 add
+# Signal98
+Graph itemselect Signal99 add
+# Signal99
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7635:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal102
+Graph addsignal WF:7635:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal103
+GrMeas:VerticalMarker Graph1 {Signal102 Signal103} 67.738564394422
+# M:52
+Graph itemselect all rem
+Graph itemselect Signal100 add
+# Signal100
+Graph itemselect Signal101 add
+# Signal101
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7637:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal104
+Graph addsignal WF:7637:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal105
+GrMeas:VerticalMarker Graph1 {Signal104 Signal105} 67.738564394422
+# M:53
+Graph itemselect all rem
+Graph itemselect Signal102 add
+# Signal102
+Graph itemselect Signal103 add
+# Signal103
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7639:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal106
+Graph addsignal WF:7639:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal107
+GrMeas:VerticalMarker Graph1 {Signal106 Signal107} 67.738564394422
+# M:54
+Graph itemselect all rem
+Graph itemselect Signal104 add
+# Signal104
+Graph itemselect Signal105 add
+# Signal105
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7641:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal108
+Graph addsignal WF:7641:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal109
+GrMeas:VerticalMarker Graph1 {Signal108 Signal109} 67.738564394422
+# M:55
+Graph itemselect all rem
+Graph itemselect Signal106 add
+# Signal106
+Graph itemselect Signal107 add
+# Signal107
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7643:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal110
+Graph addsignal WF:7643:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal111
+GrMeas:VerticalMarker Graph1 {Signal110 Signal111} 67.738564394422
+# M:56
+Graph itemselect all rem
+Graph itemselect Signal108 add
+# Signal108
+Graph itemselect Signal109 add
+# Signal109
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7645:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal112
+Graph addsignal WF:7645:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal113
+GrMeas:VerticalMarker Graph1 {Signal112 Signal113} 67.738564394422
+# M:57
+Graph itemselect all rem
+Graph itemselect Signal110 add
+# Signal110
+Graph itemselect Signal111 add
+# Signal111
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:57 2
+GrMeas:MoveXLevel Graph1 M:57 2 26.708138656499meg
+# M:57
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:7869:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal114
+Graph addsignal WF:7869:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal115
+GrMeas:VerticalMarker Graph1 {Signal114 Signal115} 26.708138656499meg
+# M:58
+Graph itemselect all rem
+Graph itemselect Signal112 add
+# Signal112
+Graph itemselect Signal113 add
+# Signal113
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:58 2
+GrMeas:MoveXLevel Graph1 M:58 2 14.817949519731meg
+# M:58
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:8057:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal116
+Graph addsignal WF:8057:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal117
+GrMeas:VerticalMarker Graph1 {Signal116 Signal117} 14.817949519731meg
+# M:59
+Graph itemselect all rem
+Graph itemselect Signal114 add
+# Signal114
+Graph itemselect Signal115 add
+# Signal115
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:59 2
+GrMeas:MoveXLevel Graph1 M:59 2 4.6486889930709meg
+# M:59
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:8545:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal118
+Graph addsignal WF:8545:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal119
+GrMeas:VerticalMarker Graph1 {Signal118 Signal119} 4.6486889930709meg
+# M:60
+Graph itemselect all rem
+Graph itemselect Signal116 add
+# Signal116
+Graph itemselect Signal117 add
+# Signal117
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:60 2
+GrMeas:MoveXLevel Graph1 M:60 2 15.102245107363meg
+# M:60
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:8997:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal120
+Graph addsignal WF:8997:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal121
+GrMeas:VerticalMarker Graph1 {Signal120 Signal121} 15.102245107363meg
+# M:61
+Graph itemselect all rem
+Graph itemselect Signal118 add
+# Signal118
+Graph itemselect Signal119 add
+# Signal119
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:61 2
+GrMeas:MoveXLevel Graph1 M:61 2 18.960856340055
+# M:61
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9033:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal122
+Graph addsignal WF:9033:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal123
+GrMeas:VerticalMarker Graph1 {Signal122 Signal123} 18.960856340055
+# M:62
+Graph itemselect all rem
+Graph itemselect Signal120 add
+# Signal120
+Graph itemselect Signal121 add
+# Signal121
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9035:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal124
+Graph addsignal WF:9035:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal125
+GrMeas:VerticalMarker Graph1 {Signal124 Signal125} 18.960856340055
+# M:63
+Graph itemselect all rem
+Graph itemselect Signal122 add
+# Signal122
+Graph itemselect Signal123 add
+# Signal123
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9037:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal126
+Graph addsignal WF:9037:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal127
+GrMeas:VerticalMarker Graph1 {Signal126 Signal127} 18.960856340055
+# M:64
+Graph itemselect all rem
+Graph itemselect Signal124 add
+# Signal124
+Graph itemselect Signal125 add
+# Signal125
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9039:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal128
+Graph addsignal WF:9039:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal129
+GrMeas:VerticalMarker Graph1 {Signal128 Signal129} 18.960856340055
+# M:65
+Graph itemselect all rem
+Graph itemselect Signal126 add
+# Signal126
+Graph itemselect Signal127 add
+# Signal127
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:65 2
+GrMeas:MoveXLevel Graph1 M:65 2 9.5710553628351meg
+# M:65
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9417:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal130
+Graph addsignal WF:9417:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal131
+GrMeas:VerticalMarker Graph1 {Signal130 Signal131} 9.5710553628351meg
+# M:66
+Graph itemselect all rem
+Graph itemselect Signal128 add
+# Signal128
+Graph itemselect Signal129 add
+# Signal129
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:66 2
+GrMeas:MoveXLevel Graph1 M:66 2 5.6216593796095meg
+# M:66
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9513:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal132
+Graph addsignal WF:9513:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal133
+GrMeas:VerticalMarker Graph1 {Signal132 Signal133} 5.6216593796095meg
+# M:67
+Graph itemselect all rem
+Graph itemselect Signal130 add
+# Signal130
+Graph itemselect Signal131 add
+# Signal131
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:67 2
+GrMeas:MoveXLevel Graph1 M:67 2 2.9445870374766
+# M:67
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9713:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal134
+Graph addsignal WF:9713:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal135
+GrMeas:VerticalMarker Graph1 {Signal134 Signal135} 2.9445870374766
+# M:68
+Graph itemselect all rem
+Graph itemselect Signal132 add
+# Signal132
+Graph itemselect Signal133 add
+# Signal133
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:Select Graph1
+Graph:DSel
+GrMeas:Select Graph1 M:68 2
+GrMeas:MoveXLevel Graph1 M:68 2 11.142613257126meg
+# M:68
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9799:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal136
+Graph addsignal WF:9799:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal137
+GrMeas:VerticalMarker Graph1 {Signal136 Signal137} 11.142613257126meg
+# M:69
+Graph itemselect all rem
+Graph itemselect Signal134 add
+# Signal134
+Graph itemselect Signal135 add
+# Signal135
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9801:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal138
+Graph addsignal WF:9801:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal139
+GrMeas:VerticalMarker Graph1 {Signal138 Signal139} 11.142613257126meg
+# M:70
+Graph itemselect all rem
+Graph itemselect Signal136 add
+# Signal136
+Graph itemselect Signal137 add
+# Signal137
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:9803:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal140
+Graph addsignal WF:9803:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal141
+GrMeas:VerticalMarker Graph1 {Signal140 Signal141} 11.142613257126meg
+# M:71
+Graph itemselect all rem
+Graph itemselect Signal138 add
+# Signal138
+Graph itemselect Signal139 add
+# Signal139
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:71 2
+GrMeas:MoveXLevel Graph1 M:71 2 35.517687031351meg
+# M:71
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph1 M:71 2 1
+GrMeas:MoveXLevel Graph1 M:71 2 44.592426923606
+# M:71
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10099:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal142
+Graph addsignal WF:10099:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal143
+GrMeas:VerticalMarker Graph1 {Signal142 Signal143} 44.592426923606
+# M:72
+Graph itemselect all rem
+Graph itemselect Signal140 add
+# Signal140
+Graph itemselect Signal141 add
+# Signal141
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+GrMeas:Select Graph1 M:72 3
+GrMeas:HideResult Graph1 M:72 3
+GrMeas:ShowResult Graph1 M:72 3
+GrMeas:Select Graph1 M:72 3 1
+Graph:DSel
+GrMeas:Select Graph1 M:72 2
+GrMeas:MoveXLevel Graph1 M:72 2 9.7546846028332meg
+# M:72
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10595:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal144
+Graph addsignal WF:10595:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal145
+GrMeas:VerticalMarker Graph1 {Signal144 Signal145} 9.7546846028332meg
+# M:73
+Graph itemselect all rem
+Graph itemselect Signal142 add
+# Signal142
+Graph itemselect Signal143 add
+# Signal143
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:73 2
+GrMeas:MoveXLevel Graph1 M:73 2 19.705577399348meg
+# M:73
+GrMeas:MoveXLevel Graph1 M:73 2 17.582018927516meg
+# M:73
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10679:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal146
+Graph addsignal WF:10679:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal147
+GrMeas:VerticalMarker Graph1 {Signal146 Signal147} 17.582018927516meg
+# M:74
+Graph itemselect all rem
+Graph itemselect Signal144 add
+# Signal144
+Graph itemselect Signal145 add
+# Signal145
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:74 2
+GrMeas:MoveXLevel Graph1 M:74 2 18.970656379046meg
+# M:74
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10707:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal148
+Graph addsignal WF:10707:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal149
+GrMeas:VerticalMarker Graph1 {Signal148 Signal149} 18.970656379046meg
+# M:75
+Graph itemselect all rem
+Graph itemselect Signal146 add
+# Signal146
+Graph itemselect Signal147 add
+# Signal147
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:75 2
+GrMeas:MoveXLevel Graph1 M:75 2 4.1477261085997meg
+# M:75
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:10825:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal150
+Graph addsignal WF:10825:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal151
+GrMeas:VerticalMarker Graph1 {Signal150 Signal151} 4.1477261085997meg
+# M:76
+Graph itemselect all rem
+Graph itemselect Signal148 add
+# Signal148
+Graph itemselect Signal149 add
+# Signal149
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:76 2
+GrMeas:MoveXLevel Graph1 M:76 2 17.919345653869meg
+# M:76
+Mdi:ArrangeIcons
+GrMeas:MoveXLevel Graph1 M:76 2 256.19711774238
+# M:76
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11249:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal152
+Graph addsignal WF:11249:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal153
+GrMeas:VerticalMarker Graph1 {Signal152 Signal153} 256.19711774238
+# M:77
+Graph itemselect all rem
+Graph itemselect Signal150 add
+# Signal150
+Graph itemselect Signal151 add
+# Signal151
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11251:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal154
+Graph addsignal WF:11251:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal155
+GrMeas:VerticalMarker Graph1 {Signal154 Signal155} 256.19711774238
+# M:78
+Graph itemselect all rem
+Graph itemselect Signal152 add
+# Signal152
+Graph itemselect Signal153 add
+# Signal153
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11253:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal156
+Graph addsignal WF:11253:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal157
+GrMeas:VerticalMarker Graph1 {Signal156 Signal157} 256.19711774238
+# M:79
+Graph itemselect all rem
+Graph itemselect Signal154 add
+# Signal154
+Graph itemselect Signal155 add
+# Signal155
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11255:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal158
+Graph addsignal WF:11255:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal159
+GrMeas:VerticalMarker Graph1 {Signal158 Signal159} 256.19711774238
+# M:80
+Graph itemselect all rem
+Graph itemselect Signal156 add
+# Signal156
+Graph itemselect Signal157 add
+# Signal157
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:80 2
+GrMeas:MoveXLevel Graph1 M:80 2 18.263144294557meg
+# M:80
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11455:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal160
+Graph addsignal WF:11455:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal161
+GrMeas:VerticalMarker Graph1 {Signal160 Signal161} 18.263144294557meg
+# M:81
+Graph itemselect all rem
+Graph itemselect Signal158 add
+# Signal158
+Graph itemselect Signal159 add
+# Signal159
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11457:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal162
+Graph addsignal WF:11457:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal163
+GrMeas:VerticalMarker Graph1 {Signal162 Signal163} 18.263144294557meg
+# M:82
+Graph itemselect all rem
+Graph itemselect Signal160 add
+# Signal160
+Graph itemselect Signal161 add
+# Signal161
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:Select Graph1
+Graph:DSel
+GrMeas:Select Graph1 M:82 2
+GrMeas:MoveXLevel Graph1 M:82 2 27.220558135578meg
+# M:82
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11505:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal164
+Graph addsignal WF:11505:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal165
+GrMeas:VerticalMarker Graph1 {Signal164 Signal165} 27.220558135578meg
+# M:83
+Graph itemselect all rem
+Graph itemselect Signal162 add
+# Signal162
+Graph itemselect Signal163 add
+# Signal163
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:83 2
+GrMeas:MoveXLevel Graph1 M:83 2 57.089383868465
+# M:83
+GrMeas:MoveXLevel Graph1 M:83 2 353.90125325152
+# M:83
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11725:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal166
+Graph addsignal WF:11725:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal167
+GrMeas:VerticalMarker Graph1 {Signal166 Signal167} 353.90125325152
+# M:84
+Graph itemselect all rem
+Graph itemselect Signal164 add
+# Signal164
+Graph itemselect Signal165 add
+# Signal165
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:84 2
+GrMeas:MoveXLevel Graph1 M:84 2 10.72704864119meg
+# M:84
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11861:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal168
+Graph addsignal WF:11861:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal169
+GrMeas:VerticalMarker Graph1 {Signal168 Signal169} 10.72704864119meg
+# M:85
+Graph itemselect all rem
+Graph itemselect Signal166 add
+# Signal166
+Graph itemselect Signal167 add
+# Signal167
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:85 2
+GrMeas:MoveXLevel Graph1 M:85 2 10.132579949088meg
+# M:85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11911:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal170
+Graph addsignal WF:11911:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal171
+GrMeas:VerticalMarker Graph1 {Signal170 Signal171} 10.132579949088meg
+# M:86
+Graph itemselect all rem
+Graph itemselect Signal168 add
+# Signal168
+Graph itemselect Signal169 add
+# Signal169
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:86 2
+GrMeas:MoveXLevel Graph1 M:86 2 11.574276797919meg
+# M:86
+GrMeas:MoveXLevel Graph1 M:86 2 10.326982539475meg
+# M:86
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11931:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal172
+Graph addsignal WF:11931:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal173
+GrMeas:VerticalMarker Graph1 {Signal172 Signal173} 10.326982539475meg
+# M:87
+Graph itemselect all rem
+Graph itemselect Signal170 add
+# Signal170
+Graph itemselect Signal171 add
+# Signal171
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:87 2
+GrMeas:MoveXLevel Graph1 M:87 2 9.7546846028332meg
+# M:87
+GrMeas:MoveXLevel Graph1 M:87 2 8.7034774898116meg
+# M:87
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:11961:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal174
+Graph addsignal WF:11961:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal175
+GrMeas:VerticalMarker Graph1 {Signal174 Signal175} 8.7034774898116meg
+# M:88
+Graph itemselect all rem
+Graph itemselect Signal172 add
+# Signal172
+Graph itemselect Signal173 add
+# Signal173
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:88 2
+GrMeas:MoveXLevel Graph1 M:88 2 7.4759361185674meg
+# M:88
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12049:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal176
+Graph addsignal WF:12049:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal177
+GrMeas:VerticalMarker Graph1 {Signal176 Signal177} 7.4759361185674meg
+# M:89
+Graph itemselect all rem
+Graph itemselect Signal174 add
+# Signal174
+Graph itemselect Signal175 add
+# Signal175
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:89 2
+GrMeas:MoveXLevel Graph1 M:89 2 436.18380839742
+# M:89
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12105:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal178
+Graph addsignal WF:12105:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal179
+GrMeas:VerticalMarker Graph1 {Signal178 Signal179} 436.18380839742
+# M:90
+Graph itemselect all rem
+Graph itemselect Signal176 add
+# Signal176
+Graph itemselect Signal177 add
+# Signal177
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12107:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal180
+Graph addsignal WF:12107:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal181
+GrMeas:VerticalMarker Graph1 {Signal180 Signal181} 436.18380839742
+# M:91
+Graph itemselect all rem
+Graph itemselect Signal178 add
+# Signal178
+Graph itemselect Signal179 add
+# Signal179
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:91 2
+GrMeas:MoveXLevel Graph1 M:91 2 11.142613257126meg
+# M:91
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12283:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal182
+Graph addsignal WF:12283:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal183
+GrMeas:VerticalMarker Graph1 {Signal182 Signal183} 11.142613257126meg
+# M:92
+Graph itemselect all rem
+Graph itemselect Signal180 add
+# Signal180
+Graph itemselect Signal181 add
+# Signal181
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12285:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal184
+Graph addsignal WF:12285:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal185
+GrMeas:VerticalMarker Graph1 {Signal184 Signal185} 11.142613257126meg
+# M:93
+Graph itemselect all rem
+Graph itemselect Signal182 add
+# Signal182
+Graph itemselect Signal183 add
+# Signal183
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:93 2
+GrMeas:MoveXLevel Graph1 M:93 2 7.6193686258181meg
+# M:93
+GrMeas:MoveXLevel Graph1 M:93 2 25.215001688955
+# M:93
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12391:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal186
+Graph addsignal WF:12391:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal187
+GrMeas:VerticalMarker Graph1 {Signal186 Signal187} 25.215001688955
+# M:94
+Graph itemselect all rem
+Graph itemselect Signal184 add
+# Signal184
+Graph itemselect Signal185 add
+# Signal185
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12393:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal188
+Graph addsignal WF:12393:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal189
+GrMeas:VerticalMarker Graph1 {Signal188 Signal189} 25.215001688955
+# M:95
+Graph itemselect all rem
+Graph itemselect Signal186 add
+# Signal186
+Graph itemselect Signal187 add
+# Signal187
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12395:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal190
+Graph addsignal WF:12395:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal191
+GrMeas:VerticalMarker Graph1 {Signal190 Signal191} 25.215001688955
+# M:96
+Graph itemselect all rem
+Graph itemselect Signal188 add
+# Signal188
+Graph itemselect Signal189 add
+# Signal189
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12397:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal192
+Graph addsignal WF:12397:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal193
+GrMeas:VerticalMarker Graph1 {Signal192 Signal193} 25.215001688955
+# M:97
+Graph itemselect all rem
+Graph itemselect Signal190 add
+# Signal190
+Graph itemselect Signal191 add
+# Signal191
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:12399:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal194
+Graph addsignal WF:12399:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal195
+GrMeas:VerticalMarker Graph1 {Signal194 Signal195} 25.215001688955
+# M:98
+Graph itemselect all rem
+Graph itemselect Signal192 add
+# Signal192
+Graph itemselect Signal193 add
+# Signal193
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:98 2
+GrMeas:MoveXLevel Graph1 M:98 2 21.261934658066meg
+# M:98
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13355:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal196
+Graph addsignal WF:13355:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal197
+GrMeas:VerticalMarker Graph1 {Signal196 Signal197} 21.261934658066meg
+# M:99
+Graph itemselect all rem
+Graph itemselect Signal194 add
+# Signal194
+Graph itemselect Signal195 add
+# Signal195
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:99 2
+GrMeas:MoveXLevel Graph1 M:99 2 34.831073733755
+# M:99
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13407:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal198
+Graph addsignal WF:13407:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal199
+GrMeas:VerticalMarker Graph1 {Signal198 Signal199} 34.831073733755
+# M:100
+Graph itemselect all rem
+Graph itemselect Signal196 add
+# Signal196
+Graph itemselect Signal197 add
+# Signal197
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13409:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal200
+Graph addsignal WF:13409:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal201
+GrMeas:VerticalMarker Graph1 {Signal200 Signal201} 34.831073733755
+# M:101
+Graph itemselect all rem
+Graph itemselect Signal198 add
+# Signal198
+Graph itemselect Signal199 add
+# Signal199
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal201 add
+# Signal201
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal201 add
+# Signal201
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal201 add
+# Signal201
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry .sigmgr 367x200+1092+85
+wm geometry .sigmgr 367x200+1088+88
+wm geometry .sigmgr 367x200+1082+92
+wm geometry .sigmgr 367x200+1073+101
+wm geometry .sigmgr 367x200+1062+109
+wm geometry .sigmgr 367x200+1051+119
+wm geometry .sigmgr 367x200+1042+129
+wm geometry .sigmgr 367x200+1022+151
+wm geometry .sigmgr 367x200+999+174
+wm geometry .sigmgr 367x200+974+200
+wm geometry .sigmgr 367x200+956+218
+wm geometry .sigmgr 367x200+941+234
+wm geometry .sigmgr 367x200+923+250
+wm geometry .sigmgr 367x200+915+259
+wm geometry .sigmgr 367x200+905+269
+wm geometry .sigmgr 367x200+896+278
+wm geometry .sigmgr 367x200+891+283
+wm geometry .sigmgr 367x200+890+284
+wm geometry .sigmgr 367x200+888+287
+wm geometry .sigmgr 367x200+887+288
+wm geometry .sigmgr 367x200+887+289
+wm geometry .sigmgr 367x200+886+289
+wm geometry .sigmgr 367x200+887+289
+wm geometry .sigmgr 367x200+888+289
+wm geometry .sigmgr 367x200+891+288
+wm geometry .sigmgr 367x200+897+285
+Graph:DSel
+Graph itemselect Signal201 add
+# Signal201
+GrMeas:AtX Graph1 Signal201 {} xyrangeVisible
+# M:102
+Graph:DSel
+GrMeas:Select Graph1 M:102 0 1
+GrMeas:MovePoint Graph1 M:102 0 1.121676179089meg 27.70533637706
+wm geometry .sigmgr 367x201+897+284
+wm geometry .sigmgr 367x200+897+285
+wm geometry .sigmgr 367x201+897+284
+wm geometry .sigmgr 367x203+897+282
+wm geometry .sigmgr 367x207+897+278
+wm geometry .sigmgr 367x210+897+275
+wm geometry .sigmgr 367x213+897+272
+wm geometry .sigmgr 367x217+897+268
+wm geometry .sigmgr 367x217+901+262
+wm geometry .sigmgr 367x217+903+260
+wm geometry .sigmgr 367x217+907+256
+wm geometry .sigmgr 367x217+909+255
+wm geometry .sigmgr 367x217+913+250
+wm geometry .sigmgr 367x217+922+244
+wm geometry .sigmgr 367x217+932+234
+wm geometry .sigmgr 367x217+940+227
+wm geometry .sigmgr 367x217+947+222
+wm geometry .sigmgr 367x217+963+208
+wm geometry .sigmgr 367x217+977+197
+wm geometry .sigmgr 367x217+983+192
+wm geometry .sigmgr 367x217+1002+178
+wm geometry .sigmgr 367x217+1016+170
+wm geometry .sigmgr 367x217+1023+166
+wm geometry .sigmgr 367x217+1042+156
+wm geometry .sigmgr 367x217+1050+152
+wm geometry .sigmgr 367x217+1061+148
+wm geometry .sigmgr 367x217+1068+145
+wm geometry .sigmgr 367x217+1072+143
+wm geometry .sigmgr 367x217+1080+140
+wm geometry .sigmgr 367x217+1083+137
+wm geometry .sigmgr 367x217+1088+135
+wm geometry .sigmgr 367x217+1093+133
+wm geometry .sigmgr 367x217+1100+130
+wm geometry .sigmgr 367x217+1108+126
+wm geometry .sigmgr 367x217+1117+122
+wm geometry .sigmgr 367x217+1125+119
+wm geometry .sigmgr 367x217+1131+116
+wm geometry .sigmgr 367x217+1138+114
+wm geometry .sigmgr 367x217+1142+112
+wm geometry .sigmgr 367x217+1148+109
+wm geometry .sigmgr 367x217+1150+109
+wm geometry .sigmgr 367x217+1153+107
+wm geometry .sigmgr 367x217+1154+106
+wm geometry .sigmgr 367x217+1156+106
+wm geometry .sigmgr 367x217+1156+105
+wm geometry .sigmgr 367x217+1157+104
+wm geometry .sigmgr 367x217+1158+104
+wm geometry .sigmgr 367x217+1159+104
+GrMeas:MovePoint Graph1 M:102 0 17.823782322068meg 0.65958086842523
+GrMeas:MovePoint Graph1 M:102 0 139.48205004153 58.059554185524
+Graph:DSel
+GrMeas:Select Graph1 M:101 2
+GrMeas:MoveXLevel Graph1 M:101 2 19.334625354367meg
+# M:101
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13587:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal202
+Graph addsignal WF:13587:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal203
+GrMeas:AtX Graph1 Signal203 139.48205004153 xyrangeVisible
+# M:103
+GrMeas:VerticalMarker Graph1 {Signal202 Signal203} 19.334625354367meg
+# M:104
+Graph itemselect all rem
+Graph itemselect Signal200 add
+# Signal200
+Graph itemselect Signal201 add
+# Signal201
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13589:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal204
+Graph addsignal WF:13589:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal205
+GrMeas:AtX Graph1 Signal205 139.48205004153 xyrangeVisible
+# M:105
+GrMeas:VerticalMarker Graph1 {Signal204 Signal205} 19.334625354367meg
+# M:106
+Graph itemselect all rem
+Graph itemselect Signal202 add
+# Signal202
+Graph itemselect Signal203 add
+# Signal203
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13591:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal206
+Graph addsignal WF:13591:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal207
+GrMeas:AtX Graph1 Signal207 139.48205004153 xyrangeVisible
+# M:107
+GrMeas:VerticalMarker Graph1 {Signal206 Signal207} 19.334625354367meg
+# M:108
+Graph itemselect all rem
+Graph itemselect Signal204 add
+# Signal204
+Graph itemselect Signal205 add
+# Signal205
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:108 2
+GrMeas:MoveXLevel Graph1 M:108 2 16.926296183274meg
+# M:108
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13661:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal208
+Graph addsignal WF:13661:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal209
+GrMeas:AtX Graph1 Signal209 139.48205004153 xyrangeVisible
+# M:109
+GrMeas:VerticalMarker Graph1 {Signal208 Signal209} 16.926296183274meg
+# M:110
+Graph itemselect all rem
+Graph itemselect Signal206 add
+# Signal206
+Graph itemselect Signal207 add
+# Signal207
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13663:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal210
+Graph addsignal WF:13663:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal211
+GrMeas:AtX Graph1 Signal211 139.48205004153 xyrangeVisible
+# M:111
+GrMeas:VerticalMarker Graph1 {Signal210 Signal211} 16.926296183274meg
+# M:112
+Graph itemselect all rem
+Graph itemselect Signal208 add
+# Signal208
+Graph itemselect Signal209 add
+# Signal209
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13665:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal212
+Graph addsignal WF:13665:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal213
+GrMeas:AtX Graph1 Signal213 139.48205004153 xyrangeVisible
+# M:113
+GrMeas:VerticalMarker Graph1 {Signal212 Signal213} 16.926296183274meg
+# M:114
+Graph itemselect all rem
+Graph itemselect Signal210 add
+# Signal210
+Graph itemselect Signal211 add
+# Signal211
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:114 2
+GrMeas:MoveXLevel Graph1 M:114 2 31.093588803452meg
+# M:114
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13795:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal214
+Graph addsignal WF:13795:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal215
+GrMeas:AtX Graph1 Signal215 139.48205004153 xyrangeVisible
+# M:115
+GrMeas:VerticalMarker Graph1 {Signal214 Signal215} 31.093588803452meg
+# M:116
+Graph itemselect all rem
+Graph itemselect Signal212 add
+# Signal212
+Graph itemselect Signal213 add
+# Signal213
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13797:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal216
+Graph addsignal WF:13797:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal217
+GrMeas:AtX Graph1 Signal217 139.48205004153 xyrangeVisible
+# M:117
+GrMeas:VerticalMarker Graph1 {Signal216 Signal217} 31.093588803452meg
+# M:118
+Graph itemselect all rem
+Graph itemselect Signal214 add
+# Signal214
+Graph itemselect Signal215 add
+# Signal215
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13799:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal218
+Graph addsignal WF:13799:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal219
+GrMeas:AtX Graph1 Signal219 139.48205004153 xyrangeVisible
+# M:119
+GrMeas:VerticalMarker Graph1 {Signal218 Signal219} 31.093588803452meg
+# M:120
+Graph itemselect all rem
+Graph itemselect Signal216 add
+# Signal216
+Graph itemselect Signal217 add
+# Signal217
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13801:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal220
+Graph addsignal WF:13801:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal221
+GrMeas:AtX Graph1 Signal221 139.48205004153 xyrangeVisible
+# M:121
+GrMeas:VerticalMarker Graph1 {Signal220 Signal221} 31.093588803452meg
+# M:122
+Graph itemselect all rem
+Graph itemselect Signal218 add
+# Signal218
+Graph itemselect Signal219 add
+# Signal219
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13803:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal222
+Graph addsignal WF:13803:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal223
+GrMeas:AtX Graph1 Signal223 139.48205004153 xyrangeVisible
+# M:123
+GrMeas:VerticalMarker Graph1 {Signal222 Signal223} 31.093588803452meg
+# M:124
+Graph itemselect all rem
+Graph itemselect Signal220 add
+# Signal220
+Graph itemselect Signal221 add
+# Signal221
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13805:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal224
+Graph addsignal WF:13805:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal225
+GrMeas:AtX Graph1 Signal225 139.48205004153 xyrangeVisible
+# M:125
+GrMeas:VerticalMarker Graph1 {Signal224 Signal225} 31.093588803452meg
+# M:126
+Graph itemselect all rem
+Graph itemselect Signal222 add
+# Signal222
+Graph itemselect Signal223 add
+# Signal223
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13807:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal226
+Graph addsignal WF:13807:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal227
+GrMeas:AtX Graph1 Signal227 139.48205004153 xyrangeVisible
+# M:127
+GrMeas:VerticalMarker Graph1 {Signal226 Signal227} 31.093588803452meg
+# M:128
+Graph itemselect all rem
+Graph itemselect Signal224 add
+# Signal224
+Graph itemselect Signal225 add
+# Signal225
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13809:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal228
+Graph addsignal WF:13809:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal229
+GrMeas:AtX Graph1 Signal229 139.48205004153 xyrangeVisible
+# M:129
+GrMeas:VerticalMarker Graph1 {Signal228 Signal229} 31.093588803452meg
+# M:130
+Graph itemselect all rem
+Graph itemselect Signal226 add
+# Signal226
+Graph itemselect Signal227 add
+# Signal227
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13811:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal230
+Graph addsignal WF:13811:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal231
+GrMeas:AtX Graph1 Signal231 139.48205004153 xyrangeVisible
+# M:131
+GrMeas:VerticalMarker Graph1 {Signal230 Signal231} 31.093588803452meg
+# M:132
+Graph itemselect all rem
+Graph itemselect Signal228 add
+# Signal228
+Graph itemselect Signal229 add
+# Signal229
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13813:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal232
+Graph addsignal WF:13813:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal233
+GrMeas:AtX Graph1 Signal233 139.48205004153 xyrangeVisible
+# M:133
+GrMeas:VerticalMarker Graph1 {Signal232 Signal233} 31.093588803452meg
+# M:134
+Graph itemselect all rem
+Graph itemselect Signal230 add
+# Signal230
+Graph itemselect Signal231 add
+# Signal231
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:134 2
+GrMeas:MoveXLevel Graph1 M:134 2 22.94121386257meg
+# M:134
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13841:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal234
+Graph addsignal WF:13841:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal235
+GrMeas:AtX Graph1 Signal235 139.48205004153 xyrangeVisible
+# M:135
+GrMeas:VerticalMarker Graph1 {Signal234 Signal235} 22.94121386257meg
+# M:136
+Graph itemselect all rem
+Graph itemselect Signal232 add
+# Signal232
+Graph itemselect Signal233 add
+# Signal233
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:136 2
+GrMeas:MoveXLevel Graph1 M:136 2 19.334625354367meg
+# M:136
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13873:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal236
+Graph addsignal WF:13873:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal237
+GrMeas:AtX Graph1 Signal237 139.48205004153 xyrangeVisible
+# M:137
+GrMeas:VerticalMarker Graph1 {Signal236 Signal237} 19.334625354367meg
+# M:138
+Graph itemselect all rem
+Graph itemselect Signal234 add
+# Signal234
+Graph itemselect Signal235 add
+# Signal235
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:138 2
+GrMeas:MoveXLevel Graph1 M:138 2 15.102245107363meg
+# M:138
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:13947:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal238
+Graph addsignal WF:13947:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal239
+GrMeas:AtX Graph1 Signal239 139.48205004153 xyrangeVisible
+# M:139
+GrMeas:VerticalMarker Graph1 {Signal238 Signal239} 15.102245107363meg
+# M:140
+Graph itemselect all rem
+Graph itemselect Signal236 add
+# Signal236
+Graph itemselect Signal237 add
+# Signal237
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:140 2
+GrMeas:MoveXLevel Graph1 M:140 2 978478.74825319
+# M:140
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14203:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal240
+Graph addsignal WF:14203:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal241
+GrMeas:AtX Graph1 Signal241 139.48205004153 xyrangeVisible
+# M:141
+GrMeas:VerticalMarker Graph1 {Signal240 Signal241} 978478.74825319
+# M:142
+Graph itemselect all rem
+Graph itemselect Signal238 add
+# Signal238
+Graph itemselect Signal239 add
+# Signal239
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:142 2
+GrMeas:MoveXLevel Graph1 M:142 2 15.391995159599meg
+# M:142
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14367:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal242
+Graph addsignal WF:14367:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal243
+GrMeas:AtX Graph1 Signal243 139.48205004153 xyrangeVisible
+# M:143
+GrMeas:VerticalMarker Graph1 {Signal242 Signal243} 15.391995159599meg
+# M:144
+Graph itemselect all rem
+Graph itemselect Signal240 add
+# Signal240
+Graph itemselect Signal241 add
+# Signal241
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:144 2
+GrMeas:MoveXLevel Graph1 M:144 2 11.356394238056meg
+# M:144
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14443:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal244
+Graph addsignal WF:14443:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal245
+GrMeas:AtX Graph1 Signal245 139.48205004153 xyrangeVisible
+# M:145
+GrMeas:VerticalMarker Graph1 {Signal244 Signal245} 11.356394238056meg
+# M:146
+Graph itemselect all rem
+Graph itemselect Signal242 add
+# Signal242
+Graph itemselect Signal243 add
+# Signal243
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14445:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal246
+Graph addsignal WF:14445:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal247
+GrMeas:AtX Graph1 Signal247 139.48205004153 xyrangeVisible
+# M:147
+GrMeas:VerticalMarker Graph1 {Signal246 Signal247} 11.356394238056meg
+# M:148
+Graph itemselect all rem
+Graph itemselect Signal244 add
+# Signal244
+Graph itemselect Signal245 add
+# Signal245
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14447:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal248
+Graph addsignal WF:14447:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal249
+GrMeas:AtX Graph1 Signal249 139.48205004153 xyrangeVisible
+# M:149
+GrMeas:VerticalMarker Graph1 {Signal248 Signal249} 11.356394238056meg
+# M:150
+Graph itemselect all rem
+Graph itemselect Signal246 add
+# Signal246
+Graph itemselect Signal247 add
+# Signal247
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14449:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal250
+Graph addsignal WF:14449:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal251
+GrMeas:AtX Graph1 Signal251 139.48205004153 xyrangeVisible
+# M:151
+GrMeas:VerticalMarker Graph1 {Signal250 Signal251} 11.356394238056meg
+# M:152
+Graph itemselect all rem
+Graph itemselect Signal248 add
+# Signal248
+Graph itemselect Signal249 add
+# Signal249
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14451:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal252
+Graph addsignal WF:14451:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal253
+GrMeas:AtX Graph1 Signal253 139.48205004153 xyrangeVisible
+# M:153
+GrMeas:VerticalMarker Graph1 {Signal252 Signal253} 11.356394238056meg
+# M:154
+Graph itemselect all rem
+Graph itemselect Signal250 add
+# Signal250
+Graph itemselect Signal251 add
+# Signal251
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14453:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal254
+Graph addsignal WF:14453:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal255
+GrMeas:AtX Graph1 Signal255 139.48205004153 xyrangeVisible
+# M:155
+GrMeas:VerticalMarker Graph1 {Signal254 Signal255} 11.356394238056meg
+# M:156
+Graph itemselect all rem
+Graph itemselect Signal252 add
+# Signal252
+Graph itemselect Signal253 add
+# Signal253
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:156 2
+GrMeas:MoveXLevel Graph1 M:156 2 11.574276797919meg
+# M:156
+GrMeas:MoveXLevel Graph1 M:156 2 12.022662934046meg
+# M:156
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14491:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal256
+Graph addsignal WF:14491:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal257
+GrMeas:AtX Graph1 Signal257 139.48205004153 xyrangeVisible
+# M:157
+GrMeas:VerticalMarker Graph1 {Signal256 Signal257} 12.022662934046meg
+# M:158
+Graph itemselect all rem
+Graph itemselect Signal254 add
+# Signal254
+Graph itemselect Signal255 add
+# Signal255
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14493:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal258
+Graph addsignal WF:14493:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal259
+GrMeas:AtX Graph1 Signal259 139.48205004153 xyrangeVisible
+# M:159
+GrMeas:VerticalMarker Graph1 {Signal258 Signal259} 12.022662934046meg
+# M:160
+Graph itemselect all rem
+Graph itemselect Signal256 add
+# Signal256
+Graph itemselect Signal257 add
+# Signal257
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:160 2
+GrMeas:MoveXLevel Graph1 M:160 2 15.988279260747meg
+# M:160
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14557:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal260
+Graph addsignal WF:14557:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal261
+GrMeas:AtX Graph1 Signal261 139.48205004153 xyrangeVisible
+# M:161
+GrMeas:VerticalMarker Graph1 {Signal260 Signal261} 15.988279260747meg
+# M:162
+Graph itemselect all rem
+Graph itemselect Signal258 add
+# Signal258
+Graph itemselect Signal259 add
+# Signal259
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:162 2
+GrMeas:MoveXLevel Graph1 M:162 2 13.733287015343meg
+# M:162
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14625:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal262
+Graph addsignal WF:14625:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal263
+GrMeas:AtX Graph1 Signal263 139.48205004153 xyrangeVisible
+# M:163
+GrMeas:VerticalMarker Graph1 {Signal262 Signal263} 13.733287015343meg
+# M:164
+Graph itemselect all rem
+Graph itemselect Signal260 add
+# Signal260
+Graph itemselect Signal261 add
+# Signal261
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:164 2
+GrMeas:MoveXLevel Graph1 M:164 2 15.988279260747meg
+# M:164
+GrMeas:MoveXLevel Graph1 M:164 2 15.391995159599meg
+# M:164
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14647:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal264
+Graph addsignal WF:14647:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal265
+GrMeas:AtX Graph1 Signal265 139.48205004153 xyrangeVisible
+# M:165
+GrMeas:VerticalMarker Graph1 {Signal264 Signal265} 15.391995159599meg
+# M:166
+Graph itemselect all rem
+Graph itemselect Signal262 add
+# Signal262
+Graph itemselect Signal263 add
+# Signal263
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:166 2
+GrMeas:MoveXLevel Graph1 M:166 2 12.488419496902meg
+# M:166
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14679:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal266
+Graph addsignal WF:14679:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal267
+GrMeas:AtX Graph1 Signal267 139.48205004153 xyrangeVisible
+# M:167
+GrMeas:VerticalMarker Graph1 {Signal266 Signal267} 12.488419496902meg
+# M:168
+Graph itemselect all rem
+Graph itemselect Signal264 add
+# Signal264
+Graph itemselect Signal265 add
+# Signal265
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:168 2
+GrMeas:MoveXLevel Graph1 M:168 2 22.085619532236meg
+# M:168
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14757:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal268
+Graph addsignal WF:14757:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal269
+GrMeas:AtX Graph1 Signal269 139.48205004153 xyrangeVisible
+# M:169
+GrMeas:VerticalMarker Graph1 {Signal268 Signal269} 22.085619532236meg
+# M:170
+Graph itemselect all rem
+Graph itemselect Signal266 add
+# Signal266
+Graph itemselect Signal267 add
+# Signal267
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:170 2
+GrMeas:MoveXLevel Graph1 M:170 2 5.5158331964538meg
+# M:170
+Graph:DSel
+GrMeas:Select Graph1 M:169 0 1
+GrMeas:MovePoint Graph1 M:169 0 42.118094854347 75.343130735637
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14901:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal270
+Graph addsignal WF:14901:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal271
+GrMeas:AtX Graph1 Signal271 42.118094854347 xyrangeVisible
+# M:171
+GrMeas:VerticalMarker Graph1 {Signal270 Signal271} 5.5158331964538meg
+# M:172
+Graph itemselect all rem
+Graph itemselect Signal268 add
+# Signal268
+Graph itemselect Signal269 add
+# Signal269
+Graph delsignal selected
+Mdi:ArrangeIcons
+wm geometry .sigmgr 367x217+1153+107
+wm geometry .sigmgr 367x217+1147+110
+wm geometry .sigmgr 367x217+1144+112
+wm geometry .sigmgr 367x217+1135+116
+wm geometry .sigmgr 367x217+1124+122
+wm geometry .sigmgr 367x217+1114+125
+wm geometry .sigmgr 367x217+1107+129
+wm geometry .sigmgr 367x217+1091+135
+wm geometry .sigmgr 367x217+1080+138
+wm geometry .sigmgr 367x217+1062+143
+wm geometry .sigmgr 367x217+1055+145
+wm geometry .sigmgr 367x217+1040+150
+wm geometry .sigmgr 367x217+1034+152
+wm geometry .sigmgr 367x217+1027+154
+wm geometry .sigmgr 367x217+1026+155
+wm geometry .sigmgr 367x217+1022+157
+wm geometry .sigmgr 367x217+1020+157
+wm geometry .sigmgr 367x217+1018+158
+wm geometry .sigmgr 367x217+1016+159
+wm geometry .sigmgr 367x217+1014+159
+wm geometry .sigmgr 367x217+1012+160
+wm geometry .sigmgr 367x217+1011+161
+wm geometry .sigmgr 367x217+1009+162
+wm geometry .sigmgr 367x217+1008+162
+wm geometry .sigmgr 367x217+1006+163
+wm geometry .sigmgr 367x217+1004+163
+wm geometry .sigmgr 367x217+1003+164
+wm geometry .sigmgr 367x217+1002+164
+wm geometry .sigmgr 367x217+1001+165
+wm geometry .sigmgr 367x217+999+165
+wm geometry .sigmgr 367x217+998+165
+wm geometry .sigmgr 367x217+996+166
+wm geometry .sigmgr 367x217+995+166
+wm geometry .sigmgr 367x217+994+167
+wm geometry .sigmgr 367x217+994+166
+Graph:Select Graph1
+Graph:DSel
+Graph itemselect Signal271 add
+# Signal271
+GrMeas:AtX Graph1 Signal271 {} xyrangeVisible
+# M:173
+Graph:DSel
+GrMeas:Select Graph1 M:173 0 1
+GrMeas:MovePoint Graph1 M:173 0 1162.1392641874 72.188841077947
+wm geometry .sigmgr 367x217+998+166
+wm geometry .sigmgr 367x217+1000+165
+wm geometry .sigmgr 367x217+1002+164
+wm geometry .sigmgr 367x217+1005+162
+wm geometry .sigmgr 367x217+1009+161
+wm geometry .sigmgr 367x217+1015+157
+wm geometry .sigmgr 367x217+1021+154
+wm geometry .sigmgr 367x217+1025+152
+wm geometry .sigmgr 367x217+1036+146
+wm geometry .sigmgr 367x217+1046+141
+wm geometry .sigmgr 367x217+1051+139
+wm geometry .sigmgr 367x217+1065+132
+wm geometry .sigmgr 367x217+1072+129
+wm geometry .sigmgr 367x217+1082+123
+wm geometry .sigmgr 367x217+1087+121
+wm geometry .sigmgr 367x217+1094+118
+wm geometry .sigmgr 367x217+1099+116
+wm geometry .sigmgr 367x217+1105+113
+wm geometry .sigmgr 367x217+1107+112
+wm geometry .sigmgr 367x217+1109+110
+wm geometry .sigmgr 367x217+1110+110
+wm geometry .sigmgr 367x217+1111+108
+wm geometry .sigmgr 367x217+1112+108
+wm geometry .sigmgr 367x217+1112+109
+wm geometry .sigmgr 367x217+1113+110
+wm geometry .sigmgr 367x217+1113+111
+wm geometry .sigmgr 367x217+1113+112
+wm geometry .sigmgr 367x217+1113+114
+wm geometry .sigmgr 367x217+1112+114
+GrMeas:MovePoint Graph1 M:173 0 963.45256915051 72.962397508028
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph1 M:173 0 2
+Graph delsignal selected
+GrMeas:MovePoint Graph1 M:173 0 999.39260383105 72.822031476675
+GrMeas:MovePoint Graph1 M:173 0 3011.0017992731 66.184765702351
+ScopeSigMgr:Unload 0 {{(1) ota_testbench.ac0}}
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14903:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal272
+Graph addsignal WF:14903:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal273
+GrMeas:AtX Graph1 Signal273 42.118094854347 xyrangeVisible
+# M:174
+GrMeas:AtX Graph1 Signal273 3011.0017992731 xyrangeVisible
+# M:175
+GrMeas:VerticalMarker Graph1 {Signal272 Signal273} 5.5158331964538meg
+# M:176
+Graph itemselect all rem
+Graph itemselect Signal270 add
+# Signal270
+Graph itemselect Signal271 add
+# Signal271
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14905:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal274
+Graph addsignal WF:14905:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal275
+GrMeas:AtX Graph1 Signal275 42.118094854347 xyrangeVisible
+# M:177
+GrMeas:AtX Graph1 Signal275 3011.0017992731 xyrangeVisible
+# M:178
+GrMeas:VerticalMarker Graph1 {Signal274 Signal275} 5.5158331964538meg
+# M:179
+Graph itemselect all rem
+Graph itemselect Signal272 add
+# Signal272
+Graph itemselect Signal273 add
+# Signal273
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:179 2
+GrMeas:MoveXLevel Graph1 M:179 2 8.3788806293716meg
+# M:179
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14963:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal276
+Graph addsignal WF:14963:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal277
+GrMeas:AtX Graph1 Signal277 42.118094854347 xyrangeVisible
+# M:180
+GrMeas:AtX Graph1 Signal277 3011.0017992731 xyrangeVisible
+# M:181
+GrMeas:VerticalMarker Graph1 {Signal276 Signal277} 8.3788806293716meg
+# M:182
+Graph itemselect all rem
+Graph itemselect Signal274 add
+# Signal274
+Graph itemselect Signal275 add
+# Signal275
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:182 2
+GrMeas:MoveXLevel Graph1 M:182 2 7.9145420796331meg
+# M:182
+GrMeas:MoveXLevel Graph1 M:182 2 7.7655530137443meg
+# M:182
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14987:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal278
+Graph addsignal WF:14987:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal279
+GrMeas:AtX Graph1 Signal279 42.118094854347 xyrangeVisible
+# M:183
+GrMeas:AtX Graph1 Signal279 3011.0017992731 xyrangeVisible
+# M:184
+GrMeas:VerticalMarker Graph1 {Signal278 Signal279} 7.7655530137443meg
+# M:185
+Graph itemselect all rem
+Graph itemselect Signal276 add
+# Signal276
+Graph itemselect Signal277 add
+# Signal277
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:14989:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal280
+Graph addsignal WF:14989:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal281
+GrMeas:AtX Graph1 Signal281 42.118094854347 xyrangeVisible
+# M:186
+GrMeas:AtX Graph1 Signal281 3011.0017992731 xyrangeVisible
+# M:187
+GrMeas:VerticalMarker Graph1 {Signal280 Signal281} 7.7655530137443meg
+# M:188
+Graph itemselect all rem
+Graph itemselect Signal278 add
+# Signal278
+Graph itemselect Signal279 add
+# Signal279
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:188 2
+GrMeas:MoveXLevel Graph1 M:188 2 9.0406491948481meg
+# M:188
+GrMeas:MoveXLevel Graph1 M:188 2 7.9145420796331meg
+# M:188
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15021:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal282
+Graph addsignal WF:15021:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal283
+GrMeas:AtX Graph1 Signal283 42.118094854347 xyrangeVisible
+# M:189
+GrMeas:AtX Graph1 Signal283 3011.0017992731 xyrangeVisible
+# M:190
+GrMeas:VerticalMarker Graph1 {Signal282 Signal283} 7.9145420796331meg
+# M:191
+Graph itemselect all rem
+Graph itemselect Signal280 add
+# Signal280
+Graph itemselect Signal281 add
+# Signal281
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:191 2
+GrMeas:MoveXLevel Graph1 M:191 2 9.0406491948481meg
+# M:191
+Graph:DSel
+GrMeas:Select Graph1 M:190 0 1
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15053:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal284
+Graph addsignal WF:15053:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal285
+GrMeas:AtX Graph1 Signal285 42.118094854347 xyrangeVisible
+# M:192
+GrMeas:AtX Graph1 Signal285 3011.0017992731 xyrangeVisible
+# M:193
+GrMeas:VerticalMarker Graph1 {Signal284 Signal285} 9.0406491948481meg
+# M:194
+Graph itemselect all rem
+Graph itemselect Signal282 add
+# Signal282
+Graph itemselect Signal283 add
+# Signal283
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:194 2
+GrMeas:MoveXLevel Graph1 M:194 2 8.8704614739394meg
+# M:194
+GrMeas:MoveXLevel Graph1 M:194 2 9.2141021190873meg
+# M:194
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15083:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal286
+Graph addsignal WF:15083:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal287
+GrMeas:AtX Graph1 Signal287 42.118094854347 xyrangeVisible
+# M:195
+GrMeas:AtX Graph1 Signal287 3011.0017992731 xyrangeVisible
+# M:196
+GrMeas:VerticalMarker Graph1 {Signal286 Signal287} 9.2141021190873meg
+# M:197
+Graph itemselect all rem
+Graph itemselect Signal284 add
+# Signal284
+Graph itemselect Signal285 add
+# Signal285
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15085:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal288
+Graph addsignal WF:15085:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal289
+GrMeas:AtX Graph1 Signal289 42.118094854347 xyrangeVisible
+# M:198
+GrMeas:AtX Graph1 Signal289 3011.0017992731 xyrangeVisible
+# M:199
+GrMeas:VerticalMarker Graph1 {Signal288 Signal289} 9.2141021190873meg
+# M:200
+Graph itemselect all rem
+Graph itemselect Signal286 add
+# Signal286
+Graph itemselect Signal287 add
+# Signal287
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15087:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal290
+Graph addsignal WF:15087:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal291
+GrMeas:AtX Graph1 Signal291 42.118094854347 xyrangeVisible
+# M:201
+GrMeas:AtX Graph1 Signal291 3011.0017992731 xyrangeVisible
+# M:202
+GrMeas:VerticalMarker Graph1 {Signal290 Signal291} 9.2141021190873meg
+# M:203
+Graph itemselect all rem
+Graph itemselect Signal288 add
+# Signal288
+Graph itemselect Signal289 add
+# Signal289
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:203 2
+GrMeas:MoveXLevel Graph1 M:203 2 10.132579949088meg
+# M:203
+GrMeas:MoveXLevel Graph1 M:203 2 10.932856644041meg
+# M:203
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15131:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal292
+Graph addsignal WF:15131:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal293
+GrMeas:AtX Graph1 Signal293 42.118094854347 xyrangeVisible
+# M:204
+GrMeas:AtX Graph1 Signal293 3011.0017992731 xyrangeVisible
+# M:205
+GrMeas:VerticalMarker Graph1 {Signal292 Signal293} 10.932856644041meg
+# M:206
+Graph itemselect all rem
+Graph itemselect Signal290 add
+# Signal290
+Graph itemselect Signal291 add
+# Signal291
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15133:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal294
+Graph addsignal WF:15133:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal295
+GrMeas:AtX Graph1 Signal295 42.118094854347 xyrangeVisible
+# M:207
+GrMeas:AtX Graph1 Signal295 3011.0017992731 xyrangeVisible
+# M:208
+GrMeas:VerticalMarker Graph1 {Signal294 Signal295} 10.932856644041meg
+# M:209
+Graph itemselect all rem
+Graph itemselect Signal292 add
+# Signal292
+Graph itemselect Signal293 add
+# Signal293
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15135:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal296
+Graph addsignal WF:15135:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal297
+GrMeas:AtX Graph1 Signal297 42.118094854347 xyrangeVisible
+# M:210
+GrMeas:AtX Graph1 Signal297 3011.0017992731 xyrangeVisible
+# M:211
+GrMeas:VerticalMarker Graph1 {Signal296 Signal297} 10.932856644041meg
+# M:212
+Graph itemselect all rem
+Graph itemselect Signal294 add
+# Signal294
+Graph itemselect Signal295 add
+# Signal295
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15137:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal298
+Graph addsignal WF:15137:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal299
+GrMeas:AtX Graph1 Signal299 42.118094854347 xyrangeVisible
+# M:213
+GrMeas:AtX Graph1 Signal299 3011.0017992731 xyrangeVisible
+# M:214
+GrMeas:VerticalMarker Graph1 {Signal298 Signal299} 10.932856644041meg
+# M:215
+Graph itemselect all rem
+Graph itemselect Signal296 add
+# Signal296
+Graph itemselect Signal297 add
+# Signal297
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15139:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal300
+Graph addsignal WF:15139:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal301
+GrMeas:AtX Graph1 Signal301 42.118094854347 xyrangeVisible
+# M:216
+GrMeas:AtX Graph1 Signal301 3011.0017992731 xyrangeVisible
+# M:217
+GrMeas:VerticalMarker Graph1 {Signal300 Signal301} 10.932856644041meg
+# M:218
+Graph itemselect all rem
+Graph itemselect Signal298 add
+# Signal298
+Graph itemselect Signal299 add
+# Signal299
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15141:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal302
+Graph addsignal WF:15141:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal303
+GrMeas:AtX Graph1 Signal303 42.118094854347 xyrangeVisible
+# M:219
+GrMeas:AtX Graph1 Signal303 3011.0017992731 xyrangeVisible
+# M:220
+GrMeas:VerticalMarker Graph1 {Signal302 Signal303} 10.932856644041meg
+# M:221
+Graph itemselect all rem
+Graph itemselect Signal300 add
+# Signal300
+Graph itemselect Signal301 add
+# Signal301
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:221 2
+GrMeas:MoveXLevel Graph1 M:221 2 2.890649279443meg
+# M:221
+Graph:DSel
+GrMeas:Select Graph1 M:220 0 1
+GrMeas:MovePoint Graph1 M:220 0 470.676725257 60.039984780412
+Graph:DSel
+GrMeas:Select Graph1 M:221 2 1
+GrMeas:MoveXLevel Graph1 M:221 2 2.9461089659835meg
+# M:221
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15307:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal304
+Graph addsignal WF:15307:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal305
+GrMeas:AtX Graph1 Signal305 42.118094854347 xyrangeVisible
+# M:222
+GrMeas:AtX Graph1 Signal305 470.676725257 xyrangeVisible
+# M:223
+GrMeas:VerticalMarker Graph1 {Signal304 Signal305} 2.9461089659835meg
+# M:224
+Graph itemselect all rem
+Graph itemselect Signal302 add
+# Signal302
+Graph itemselect Signal303 add
+# Signal303
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:224 2
+GrMeas:MoveXLevel Graph1 M:224 2 735784.00692919
+# M:224
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15481:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal306
+Graph addsignal WF:15481:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal307
+GrMeas:AtX Graph1 Signal307 42.118094854347 xyrangeVisible
+# M:225
+GrMeas:AtX Graph1 Signal307 470.676725257 xyrangeVisible
+# M:226
+GrMeas:VerticalMarker Graph1 {Signal306 Signal307} 735784.00692919
+# M:227
+Graph itemselect all rem
+Graph itemselect Signal304 add
+# Signal304
+Graph itemselect Signal305 add
+# Signal305
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:227 2
+GrMeas:MoveXLevel Graph1 M:227 2 3.0026326961121meg
+# M:227
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15609:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal308
+Graph addsignal WF:15609:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal309
+GrMeas:AtX Graph1 Signal309 42.118094854347 xyrangeVisible
+# M:228
+GrMeas:AtX Graph1 Signal309 470.676725257 xyrangeVisible
+# M:229
+GrMeas:VerticalMarker Graph1 {Signal308 Signal309} 3.0026326961121meg
+# M:230
+Graph itemselect all rem
+Graph itemselect Signal306 add
+# Signal306
+Graph itemselect Signal307 add
+# Signal307
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15611:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal310
+Graph addsignal WF:15611:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal311
+GrMeas:AtX Graph1 Signal311 42.118094854347 xyrangeVisible
+# M:231
+GrMeas:AtX Graph1 Signal311 470.676725257 xyrangeVisible
+# M:232
+GrMeas:VerticalMarker Graph1 {Signal310 Signal311} 3.0026326961121meg
+# M:233
+Graph itemselect all rem
+Graph itemselect Signal308 add
+# Signal308
+Graph itemselect Signal309 add
+# Signal309
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15613:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal312
+Graph addsignal WF:15613:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal313
+GrMeas:AtX Graph1 Signal313 42.118094854347 xyrangeVisible
+# M:234
+GrMeas:AtX Graph1 Signal313 470.676725257 xyrangeVisible
+# M:235
+GrMeas:VerticalMarker Graph1 {Signal312 Signal313} 3.0026326961121meg
+# M:236
+Graph itemselect all rem
+Graph itemselect Signal310 add
+# Signal310
+Graph itemselect Signal311 add
+# Signal311
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:236 2
+GrMeas:MoveXLevel Graph1 M:236 2 8.3788806293716meg
+# M:236
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph addsignal WF:15733:1 -region 0 -yview cphasedeg(y) -xview real(x) -rainbow 0 -rbcolors {} -fill green -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label Phase(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal314
+Graph addsignal WF:15733:1 -region 1 -yview db(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label dB(v(vout)) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+# Signal315
+GrMeas:AtX Graph1 Signal315 42.118094854347 xyrangeVisible
+# M:237
+GrMeas:AtX Graph1 Signal315 470.676725257 xyrangeVisible
+# M:238
+GrMeas:VerticalMarker Graph1 {Signal314 Signal315} 8.3788806293716meg
+# M:239
+Graph itemselect all rem
+Graph itemselect Signal312 add
+# Signal312
+Graph itemselect Signal313 add
+# Signal313
+Graph delsignal selected
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph1 M:239 2
+GrMeas:MoveXLevel Graph1 M:239 2 5.3101197743905meg
+# M:239
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) ota_testbench.ac0}}
+Graph1 delsignal Signal314
+Graph1 delsignal Signal315
